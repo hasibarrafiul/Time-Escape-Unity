@@ -1,0 +1,582 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32637 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Projects/timeEscape
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50292
+Successfully changed project path to: E:/Projects/timeEscape
+E:/Projects/timeEscape
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16472] Host "[IP] 192.168.100.46 [Port] 0 [Flags] 2 [Guid] 3123431280 [EditorId] 3123431280 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16472] Host "[IP] 192.168.100.46 [Port] 0 [Flags] 2 [Guid] 3123431280 [EditorId] 3123431280 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path E:/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Projects/timeEscape/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   NVIDIA
+    VRAM:     8073 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002770 seconds.
+- Loaded All Assemblies, in  0.272 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.212 seconds
+Domain Reload Profiling: 484ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (212ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (163ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.483 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.639 seconds
+Domain Reload Profiling: 1123ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (119ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3140 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.9 KB). Loaded Objects now: 3629.
+Memory consumption went from 264.0 MB to 263.9 MB.
+Total: 6.334300 ms (FindLiveObjects: 0.520800 ms CreateObjectMapping: 0.169300 ms MarkObjects: 5.485100 ms  DeleteObjects: 0.157700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 524.502690 seconds.
+  path: Assets/Pirates Island
+  artifactKey: Guid(1419439dabcc4bf4c89ab0b87671f361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island using Guid(1419439dabcc4bf4c89ab0b87671f361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac772d61f9a74ef28c714541a1e7ce4f') in 0.003497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 74.559510 seconds.
+  path: Assets/Pirates Island/Demo
+  artifactKey: Guid(fda58fec3cb2e034dac809710fedac8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Demo using Guid(fda58fec3cb2e034dac809710fedac8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30165917c34001b4c04d01e3129b3a28') in 0.000421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.878163 seconds.
+  path: Assets/Pirates Island/Demo/Demo _terrain1.asset
+  artifactKey: Guid(c5e72526b57527649b36204839ceba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Demo/Demo _terrain1.asset using Guid(c5e72526b57527649b36204839ceba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db39eaf657f82e399b2bb6eaadd95f0') in 0.519336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 2.052484 seconds.
+  path: Assets/Pirates Island/Demo/Demo1.unity
+  artifactKey: Guid(f76d666d19fa3714986ed950db3d0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Demo/Demo1.unity using Guid(f76d666d19fa3714986ed950db3d0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d615fe08c768bb280c332c1cd03828') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.082549 seconds.
+  path: Assets/Pirates Island/Demo/Demo1_sunset.unity
+  artifactKey: Guid(ef23ba014b8996d489cf2133723c7fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Demo/Demo1_sunset.unity using Guid(ef23ba014b8996d489cf2133723c7fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ac8aa53074f8d17d5df812d1ea9f3e') in 0.000445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.192062 seconds.
+  path: Assets/Pirates Island/Demo/Testscene.unity
+  artifactKey: Guid(c238f07871dbefe4f8a3a8c66c673009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Demo/Testscene.unity using Guid(c238f07871dbefe4f8a3a8c66c673009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d09f45e5ed69ce48e1689e062978a0') in 0.000395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 439.140246 seconds.
+  path: Assets/Volcano
+  artifactKey: Guid(5d4003bca59ead344b3dc169b134fa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Volcano using Guid(5d4003bca59ead344b3dc169b134fa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1336502dcf028e0d7a01544dc020ff65') in 0.000566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 161.449234 seconds.
+  path: Assets/Jungle
+  artifactKey: Guid(5d4003bca59ead344b3dc169b134fa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle using Guid(5d4003bca59ead344b3dc169b134fa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0de46007022be9aefd2477478295d03') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 240.906502 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/URP_ExtractMe_Nature_Biomes.unitypackage
+  artifactKey: Guid(92f9cd028443b7645a5012a799b57dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/URP_ExtractMe_Nature_Biomes.unitypackage using Guid(92f9cd028443b7645a5012a799b57dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2a094ee6a2d543657e626a1c0a9eb9') in 0.001835 seconds
+Number of updated asset objects reloaded before import = 5
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.053257 seconds.
+  path: Assets/Jungle/Polytope Studio/Lowpoly_Village
+  artifactKey: Guid(9c4cb87f53ebd5c468c413df16c5ea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/Polytope Studio/Lowpoly_Village using Guid(9c4cb87f53ebd5c468c413df16c5ea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c172aeb444de2372d8cac7bba04a033f') in 0.000640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.456310 seconds.
+  path: Assets/Jungle/Polytope Studio/Lowpoly_Village/Sources
+  artifactKey: Guid(db696abb7e2d76c409c7c5cdb95101a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/Polytope Studio/Lowpoly_Village/Sources using Guid(db696abb7e2d76c409c7c5cdb95101a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc70249ebbda88519ce447a3a9f0e628') in 0.000464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.479011 seconds.
+  path: Assets/Jungle/Polytope Studio/Lowpoly_Village/Prefabs
+  artifactKey: Guid(46df1f2d8eb22a64fb03812d24ea1ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/Polytope Studio/Lowpoly_Village/Prefabs using Guid(46df1f2d8eb22a64fb03812d24ea1ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb35957a295fea8a82fbcb1a3a587d6f') in 0.000644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.346067 seconds.
+  path: Assets/Jungle/Polytope Studio/Lowpoly_Demos/Environment_Free/Environment_Free.unity
+  artifactKey: Guid(c732593fe76e5a84197f9cd13963f706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/Polytope Studio/Lowpoly_Demos/Environment_Free/Environment_Free.unity using Guid(c732593fe76e5a84197f9cd13963f706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235dd3fc9cd853700b0df91d8fe54f7f') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.462659 seconds.
+  path: Assets/Jungle/Polytope Studio/Lowpoly_Demos/Environment_Free
+  artifactKey: Guid(5c2928345bc8a9f4793d01e4fcd0b64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/Polytope Studio/Lowpoly_Demos/Environment_Free using Guid(5c2928345bc8a9f4793d01e4fcd0b64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c39141b97e10fbd0a62e09779ad498f') in 0.000538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.907880 seconds.
+  path: Assets/Jungle/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers
+  artifactKey: Guid(290c306efce63f0419ccb2974a325792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers using Guid(290c306efce63f0419ccb2974a325792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08494a2e94f14ffca4c75e80876f7826') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.193585 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes
+  artifactKey: Guid(2e51062debed8a3499f79935cdd1711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes using Guid(2e51062debed8a3499f79935cdd1711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e8e9d6f570c710fe17d3bab6ef5f72') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.154764 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle
+  artifactKey: Guid(1907f06e11eff1c419fb12bea4b9c986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle using Guid(1907f06e11eff1c419fb12bea4b9c986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a1fe23862697aca2578d99bbef7a57') in 0.000570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.525781 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain
+  artifactKey: Guid(f1699b44ae133ba43a881981690f5f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain using Guid(f1699b44ae133ba43a881981690f5f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523e389ca951d9b074a06f68dd4a0240') in 0.000455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.624938 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Terrain_Tropical_01.asset
+  artifactKey: Guid(5fa5c461f07ce5744a43766f4611982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Terrain_Tropical_01.asset using Guid(5fa5c461f07ce5744a43766f4611982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91b49faab909b5509ea017c50efc762') in 0.034336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.682105 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Terrain_Seaweed_Sand_01.terrainlayer
+  artifactKey: Guid(a004647f63e5b6343be3f168af463fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Terrain_Seaweed_Sand_01.terrainlayer using Guid(a004647f63e5b6343be3f168af463fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114312b33cc5f61f798c69d6319f0b38') in 0.048838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Seaweed_Sand_Normals_01.png
+  artifactKey: Guid(aa79ee3a8b3e1814aad2b6050e5877ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Seaweed_Sand_Normals_01.png using Guid(aa79ee3a8b3e1814aad2b6050e5877ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d802ee980fc4b82f3fa10fe0f5a49c') in 0.026629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.977254 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Terrain_Rock_01.terrainlayer
+  artifactKey: Guid(cda7cd11cbcfe20439b9e3dc794e61c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Terrain_Rock_01.terrainlayer using Guid(cda7cd11cbcfe20439b9e3dc794e61c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140b4c105d38bf1fbc8563ed21237c6f') in 0.018770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Rock_Normals_01.png
+  artifactKey: Guid(1498da8db984e44448d2c3757b1ce0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Rock_Normals_01.png using Guid(1498da8db984e44448d2c3757b1ce0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9571b1a911e6857bb7434dd79478772b') in 0.018189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.953083 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Sand_Texture_01.png
+  artifactKey: Guid(c3f8c8fe14d14ab49ac1b32011119754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Sand_Texture_01.png using Guid(c3f8c8fe14d14ab49ac1b32011119754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685fb86a9f09bb29143026f0ade1650b') in 0.014324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.028890 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Rock_Coral_Texture_01.png
+  artifactKey: Guid(146190c538f8ebf4c9dedebbf4681049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Rock_Coral_Texture_01.png using Guid(146190c538f8ebf4c9dedebbf4681049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c471f7289643960aba72bc54f8ee8577') in 0.016016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.664508 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Ground_Clovers_Normals_01.png
+  artifactKey: Guid(f8b69bb40e5bb7b488c870e0cb2b76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Terrain/Ground_Clovers_Normals_01.png using Guid(f8b69bb40e5bb7b488c870e0cb2b76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed07f1e369805785b9dd3b38d3c34e7') in 0.014077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.493234 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Scenes
+  artifactKey: Guid(74af76b13c04d2945bbd2c2691412dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Scenes using Guid(74af76b13c04d2945bbd2c2691412dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ba6645e4ac0d68b8d5ecebab262307') in 0.000498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.788266 seconds.
+  path: Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Scenes/Demo_Day.unity
+  artifactKey: Guid(9e02542a7c0dc284baefa27cbd0af22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jungle/PolygonNatureBiomes/PNB_Tropical_Jungle/Scenes/Demo_Day.unity using Guid(9e02542a7c0dc284baefa27cbd0af22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b4949f1a64684243e9f0cfa9a0b342') in 0.000796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 134.212065 seconds.
+  path: Assets/Pirates Island/Demo/Demo1.unity
+  artifactKey: Guid(f76d666d19fa3714986ed950db3d0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Demo/Demo1.unity using Guid(f76d666d19fa3714986ed950db3d0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc8f660b8b5fedad496e67895b5136e') in 0.000562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.457 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.942 seconds
+Domain Reload Profiling: 1399ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (943ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (404ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (6.8 MB). Loaded Objects now: 3673.
+Memory consumption went from 289.4 MB to 282.6 MB.
+Total: 6.023100 ms (FindLiveObjects: 0.409200 ms CreateObjectMapping: 0.251100 ms MarkObjects: 3.120200 ms  DeleteObjects: 2.241100 ms)
+
+Prepare: number of updated asset objects reloaded= 12
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 327.994496 seconds.
+  path: Assets/ModularFirstPersonController/FirstPersonController
+  artifactKey: Guid(f37b4faf82d1edb47811f804ec33f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/FirstPersonController using Guid(f37b4faf82d1edb47811f804ec33f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7761914bb2f8a0ab78dc26c25d617642') in 0.004943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.452119 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene
+  artifactKey: Guid(7d2c7648db4398a488c3e3a2d79fab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene using Guid(7d2c7648db4398a488c3e3a2d79fab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a8b4b769383986f2b878903f0f922c') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.914561 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Demo.unity
+  artifactKey: Guid(5400bb4ba1de969468555b6096dc2328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Demo.unity using Guid(5400bb4ba1de969468555b6096dc2328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c928b550b847b2803868646a395e99e6') in 0.000879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 108.224037 seconds.
+  path: Assets/Pirates Island/Demo/Demo1.unity
+  artifactKey: Guid(f76d666d19fa3714986ed950db3d0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Demo/Demo1.unity using Guid(f76d666d19fa3714986ed950db3d0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206a1a7358c8c521cfde34ee48884da7') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.462 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.937 seconds
+Domain Reload Profiling: 1399ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (937ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (531ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (6.8 MB). Loaded Objects now: 3664.
+Memory consumption went from 231.2 MB to 224.4 MB.
+Total: 9.016800 ms (FindLiveObjects: 0.922100 ms CreateObjectMapping: 0.284700 ms MarkObjects: 5.512900 ms  DeleteObjects: 2.294300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
