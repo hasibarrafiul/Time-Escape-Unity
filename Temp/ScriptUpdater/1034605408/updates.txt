@@ -1,5 +1,0 @@
-Temp/ScriptUpdater/1034605408\597645999_WaterSimple.cs => Assets/Pirates Island/Standard Assets/Water (Basic)/Sources/Scripts/WaterSimple.cs
-Temp/ScriptUpdater/1034605408\9647340_MouseLook.cs => Assets/Pirates Island/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs
-Temp/ScriptUpdater/1034605408\1734376462_SSAOEffect.cs => Assets/Pirates Island/Standard Assets/Image Effects (Pro Only)/SSAOEffect.cs
-Temp/ScriptUpdater/1034605408\850387254_PlanarReflection.cs => Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Sources/Scripts/PlanarReflection.cs
-Temp/ScriptUpdater/1034605408\1961691024_Water.cs => Assets/Pirates Island/Standard Assets/Water (Pro Only)/Sources/Scripts/Water.cs

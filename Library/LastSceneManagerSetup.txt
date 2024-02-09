@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Pirates Island/Demo/Demo1.unity
+- path: Assets/Scenes/Main_Map.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
