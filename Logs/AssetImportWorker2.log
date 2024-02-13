@@ -15,7 +15,7 @@ E:/Projects/timeEscape
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-58802
+60092
 Successfully changed project path to: E:/Projects/timeEscape
 E:/Projects/timeEscape
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Projects/timeEscape
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20356] Host "[IP] 192.168.100.56 [Port] 0 [Flags] 2 [Guid] 341483244 [EditorId] 341483244 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17812] Host "[IP] 192.168.100.56 [Port] 0 [Flags] 2 [Guid] 526931725 [EditorId] 526931725 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20356] Host "[IP] 192.168.100.56 [Port] 0 [Flags] 2 [Guid] 341483244 [EditorId] 341483244 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17812] Host "[IP] 192.168.100.56 [Port] 0 [Flags] 2 [Guid] 526931725 [EditorId] 526931725 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path E:/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,45 +70,45 @@ Initialize mono
 Mono path[0] = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002891 seconds.
-- Loaded All Assemblies, in  0.360 seconds
+Registered in 0.002896 seconds.
+- Loaded All Assemblies, in  0.282 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.210 seconds
-Domain Reload Profiling: 570ms
-	BeginReloadAssembly (147ms)
+Domain Reload Profiling: 492ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (122ms)
-		LoadAssemblies (147ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (87ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (120ms)
-			TypeCache.Refresh (119ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (104ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
+			ResolveRequiredComponents (0ms)
 	FinalizeReload (210ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (165ms)
+		SetupLoadedEditorAssemblies (163ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadAttributes (109ms)
 			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 570ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.485 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.572 seconds
-Domain Reload Profiling: 1056ms
-	BeginReloadAssembly (116ms)
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 1068ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (306ms)
-		LoadAssemblies (220ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (211ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (120ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (572ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (586ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (451ms)
+		SetupLoadedEditorAssemblies (463ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (382ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (58.0 KB). Loaded Objects now: 3739.
-Memory consumption went from 239.7 MB to 239.7 MB.
-Total: 3.674700 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.082200 ms MarkObjects: 3.253500 ms  DeleteObjects: 0.115900 ms)
+Unloading 31 unused Assets / (57.9 KB). Loaded Objects now: 3740.
+Memory consumption went from 239.8 MB to 239.7 MB.
+Total: 3.558900 ms (FindLiveObjects: 0.294400 ms CreateObjectMapping: 0.309800 ms MarkObjects: 2.825000 ms  DeleteObjects: 0.128800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,84 +184,1572 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 40798.939183 seconds.
-  path: Assets/Pirates Island/Demo/Demo _terrain1.asset
-  artifactKey: Guid(c5e72526b57527649b36204839ceba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pirates Island/Demo/Demo _terrain1.asset using Guid(c5e72526b57527649b36204839ceba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8774529926db26e172b80c18ec42fde') in 0.245092 seconds
+  Time since last request: 46615.228132 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2a653b02efa1d9078eaff99c774579') in 0.092117 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 245
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 54.302141 seconds.
-  path: Assets/Scenes/Maps
-  artifactKey: Guid(3e9cf6960892ef14e92d922ea362727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Maps using Guid(3e9cf6960892ef14e92d922ea362727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc82f8e587b23e2bd8977d700b67341') in 0.000685 seconds
+  Time since last request: 0.589705 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3786fd450c283f4ee7f33f87f55634ce') in 0.093678 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 10.035660 seconds.
-  path: Assets/Scenes/Map_Data
-  artifactKey: Guid(b1c67ab298d175b44a23c2818907c486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map_Data using Guid(b1c67ab298d175b44a23c2818907c486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51c3970dd6e70d894c65034829e1d90') in 0.000397 seconds
+  Time since last request: 0.142580 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Bark1.mat
+  artifactKey: Guid(0ee46a4299bb8894187fc7dafba3061c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Bark1.mat using Guid(0ee46a4299bb8894187fc7dafba3061c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ab35c41ea37ceaf035b04b240bdbe5') in 0.238277 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 3.098637 seconds.
-  path: Assets/Scenes/Main_Map.unity
-  artifactKey: Guid(f76d666d19fa3714986ed950db3d0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main_Map.unity using Guid(f76d666d19fa3714986ed950db3d0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde383c4d4840d50ceb639d7e823a9a6') in 0.000649 seconds
+  Time since last request: 0.188582 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Bark2.mat
+  artifactKey: Guid(5b4884ffa52c57e40b0cc23e5ec24217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Bark2.mat using Guid(5b4884ffa52c57e40b0cc23e5ec24217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb92ddc5e381cb91a34645190df414fc') in 0.016283 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 25.637016 seconds.
-  path: Assets/Scenes/Map_Data/Main_Map.asset
-  artifactKey: Guid(c5e72526b57527649b36204839ceba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map_Data/Main_Map.asset using Guid(c5e72526b57527649b36204839ceba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cda850dbd3f01a2b418e0600fe9ad7') in 0.133327 seconds
+  Time since last request: 0.035036 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Boat.mat
+  artifactKey: Guid(56b8bc77f66fcdd4692fbc71b8858f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Boat.mat using Guid(56b8bc77f66fcdd4692fbc71b8858f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6654c0f5d8e017ccc6236ab35e8367') in 0.019000 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 245
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 1.986039 seconds.
-  path: Assets/Scenes/Map_Data/Main_Map 1.asset
-  artifactKey: Guid(adb5a9cddd361b64fbed84368a5328b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map_Data/Main_Map 1.asset using Guid(adb5a9cddd361b64fbed84368a5328b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148353bc7d74006a0ff2b15f81a13258') in 0.141293 seconds
+  Time since last request: 0.394117 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch2.mat
+  artifactKey: Guid(5417a423b16be3a48b9932a936506452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch2.mat using Guid(5417a423b16be3a48b9932a936506452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904be99dba211cc07a4d94c7a7711872') in 0.190987 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 245
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 15.117317 seconds.
-  path: Assets/Scenes/Map_Data/Waterfall.asset
-  artifactKey: Guid(adb5a9cddd361b64fbed84368a5328b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map_Data/Waterfall.asset using Guid(adb5a9cddd361b64fbed84368a5328b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6201b9bdaac9205c441acbeb75551c0f') in 0.139315 seconds
+  Time since last request: 3.836222 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch4.mat
+  artifactKey: Guid(866a78412c1928a438a1ffa2a615c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch4.mat using Guid(866a78412c1928a438a1ffa2a615c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7538b3b2345500bb503b288c564fb544') in 0.016191 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 245
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 518.382458 seconds.
-  path: Assets/Pirates Island/_origin/Prefabs/Shells_starfish.prefab
-  artifactKey: Guid(15d3d867fd734894e9f463871a5fa486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pirates Island/_origin/Prefabs/Shells_starfish.prefab using Guid(15d3d867fd734894e9f463871a5fa486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28dcb0889db17ad9a579337633a89a01') in 0.123882 seconds
+  Time since last request: 0.213655 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch6A.mat
+  artifactKey: Guid(25ffbec249212bc43bd7970adc0f02b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch6A.mat using Guid(25ffbec249212bc43bd7970adc0f02b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12ec56963d9465ff66a9b3d9f3c12b1') in 0.015960 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pirates Island/_origin/Prefabs/Shell1.prefab
-  artifactKey: Guid(c411cc3df99262549a263895adbd00b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pirates Island/_origin/Prefabs/Shell1.prefab using Guid(c411cc3df99262549a263895adbd00b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a563bc6bb548156a9d380fb94ce41c9') in 0.017826 seconds
+  Time since last request: 0.046779 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch7.mat
+  artifactKey: Guid(4ea32aee63cda8d4fb81f11dd81bc4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch7.mat using Guid(4ea32aee63cda8d4fb81f11dd81bc4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ba64eaabd172a0b690b9282d784e0b') in 0.054519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.399455 seconds.
+  path: Assets/Pirates Island/_origin/Particles/Materials_Textures/Butterfly1.mat
+  artifactKey: Guid(fb374315a4482b24a809a123e1a24684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Particles/Materials_Textures/Butterfly1.mat using Guid(fb374315a4482b24a809a123e1a24684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ba7ead8c5805a538639c59a0fe58fd') in 0.013160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039790 seconds.
+  path: Assets/Pirates Island/_origin/Models/Materials/Cliffs1_Atlas.mat
+  artifactKey: Guid(20ec863d782d35e42b2e4a0dfead6ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Materials/Cliffs1_Atlas.mat using Guid(20ec863d782d35e42b2e4a0dfead6ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2280b058844b27547d6ce2f1ac81017') in 0.017334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.237924 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Cliffs1B.mat
+  artifactKey: Guid(7756cd7110b6a7542a873b2cf55d3033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Cliffs1B.mat using Guid(7756cd7110b6a7542a873b2cf55d3033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebb520033953ac2eff9e810202b2da4') in 0.028219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.052719 seconds.
+  path: Assets/Pirates Island/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat
+  artifactKey: Guid(ca49380a71a2bb64c830d06bd421b9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat using Guid(ca49380a71a2bb64c830d06bd421b9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c849102dcd2fbc6d4083c997d4a72b7f') in 0.023283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/Standard Assets/Water (Pro Only)/Sources/Materials/Daylight Water.mat
+  artifactKey: Guid(ae162c0523ab4468bb03ef160eb672e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Water (Pro Only)/Sources/Materials/Daylight Water.mat using Guid(ae162c0523ab4468bb03ef160eb672e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4730307f3ea507e6c7d0f443b0c6a8ff') in 0.044210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.303169 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Fabric1.mat
+  artifactKey: Guid(8130c7c31dfe9384b914d8cfac2191b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Fabric1.mat using Guid(8130c7c31dfe9384b914d8cfac2191b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8d1505abf0eefd813b8f174ae64b78') in 0.059042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.430354 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Flag.mat
+  artifactKey: Guid(4d53d8a8adbd0a34487fc1399d0b5fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Flag.mat using Guid(4d53d8a8adbd0a34487fc1399d0b5fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cddc0b15654f80d581d41b79d6ebc72') in 0.057912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 250.782817 seconds.
+  path: Assets/Pirates Island/Nature/BananaTree.prefab
+  artifactKey: Guid(761a32ae25434634c86b690a62b68320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/BananaTree.prefab using Guid(761a32ae25434634c86b690a62b68320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6304a53136dc791476c9997457ad457f') in 0.099798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pirates Island/_origin/Models/Barrel2.fbx
+  artifactKey: Guid(04a51aca099db904a8b9de8e3ca14b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Barrel2.fbx using Guid(04a51aca099db904a8b9de8e3ca14b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de37cd423e631c944b12755413e0bbea') in 0.047016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Barrel1.prefab
+  artifactKey: Guid(8ee6ee0c51a54cc408abff8ed0c9c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Barrel1.prefab using Guid(8ee6ee0c51a54cc408abff8ed0c9c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8b915bca98c54615043d24f3e3f8b3') in 0.018364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.379133 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Barrel2.prefab
+  artifactKey: Guid(1afd3ad03d3ed31498b1a6125e1d54af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Barrel2.prefab using Guid(1afd3ad03d3ed31498b1a6125e1d54af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64700a7011479e7d76ca674ae6716aaf') in 0.016491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.503772 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Barrel2_LOD2.prefab
+  artifactKey: Guid(2a1f2367dc02f134da4d2bd93e26006d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Barrel2_LOD2.prefab using Guid(2a1f2367dc02f134da4d2bd93e26006d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1118a9b3a58afd10a12a6817218370ee') in 0.016381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.047101 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Barrel3.prefab
+  artifactKey: Guid(1d3f2a82cf971514d9ee1cc554620907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Barrel3.prefab using Guid(1d3f2a82cf971514d9ee1cc554620907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1dcd8f1a7d50b916c9903bf54267a31') in 0.017215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.510260 seconds.
+  path: Assets/Pirates Island/_origin/Models/Barrel3_LOD1.fbx
+  artifactKey: Guid(bfe012204a69c114e9ba78658033aef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Barrel3_LOD1.fbx using Guid(bfe012204a69c114e9ba78658033aef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb2e4cba3ceb46fae74467ad7344bb2') in 0.016919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.077860 seconds.
+  path: Assets/Pirates Island/_origin/Models/Barrier1.fbx
+  artifactKey: Guid(8b19c0caacc9ed24aad07e0847e435f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Barrier1.fbx using Guid(8b19c0caacc9ed24aad07e0847e435f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd43419e4cf2df4c96288084f02a54fe') in 0.017992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.493525 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Barrier1.prefab
+  artifactKey: Guid(efe1469c9dbdcf640b2e40a73f8866f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Barrier1.prefab using Guid(efe1469c9dbdcf640b2e40a73f8866f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd3939eb35e104e873fd5812cd5cc57') in 0.018185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.043539 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Barrier1_LOD1.prefab
+  artifactKey: Guid(c01d7eb84a08c5042993ecfd3e4cc96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Barrier1_LOD1.prefab using Guid(c01d7eb84a08c5042993ecfd3e4cc96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecffa80bb75a8fae7737fc004c7936f3') in 0.020004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.273685 seconds.
+  path: Assets/Pirates Island/_origin/Models/Barrier2.fbx
+  artifactKey: Guid(b561ff4227236da458a6fcf8590cb0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Barrier2.fbx using Guid(b561ff4227236da458a6fcf8590cb0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a86b345b8a2fa5f6b14eaab530fc4d') in 0.016897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.077690 seconds.
+  path: Assets/Pirates Island/_origin/Models/Barrier2_LOD1.fbx
+  artifactKey: Guid(96b4e4aa6f4c2184d867ccfed7ffafb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Barrier2_LOD1.fbx using Guid(96b4e4aa6f4c2184d867ccfed7ffafb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b748f8c8472fde8086fcd79e1dea45') in 0.016210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.235071 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Boat1.prefab
+  artifactKey: Guid(910528f79405f2d498b2e54cbf6320a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Boat1.prefab using Guid(910528f79405f2d498b2e54cbf6320a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5992cc8fc2af0c1cecd5aba8340debd') in 0.014851 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pirates Island/_origin/Prefabs/Branch2.prefab
-  artifactKey: Guid(8a4c5b4bd3de32b47829c4889d69337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pirates Island/_origin/Prefabs/Branch2.prefab using Guid(8a4c5b4bd3de32b47829c4889d69337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b2f96f0368400c5b93aea895c4f14e') in 0.015274 seconds
+  Time since last request: 0.321689 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Boat1.prefab
+  artifactKey: Guid(ed47abb79bb99b84a886d2e7902c2dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Boat1.prefab using Guid(ed47abb79bb99b84a886d2e7902c2dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe979169d12ac5caf45634750948895') in 0.017127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.041877 seconds.
+  path: Assets/Pirates Island/_origin/Models/Boat1_LOD1.fbx
+  artifactKey: Guid(89e0e9e0b86c75a438395a7aff24edc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Boat1_LOD1.fbx using Guid(89e0e9e0b86c75a438395a7aff24edc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805b57de8ae3b8bbc53feead8026ec65') in 0.016941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Boat2.prefab
+  artifactKey: Guid(76cd7ac0c86f3964f94c63e8a5cbfed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Boat2.prefab using Guid(76cd7ac0c86f3964f94c63e8a5cbfed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b1cd580c9e5a1e334fcda9e6218d44') in 0.021461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.056127 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Boat2.prefab
+  artifactKey: Guid(053968a09a111844690fb1fba089478d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Boat2.prefab using Guid(053968a09a111844690fb1fba089478d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4e67683efbbb2de4e9c8432ffb2e0a') in 0.019332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.210260 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Boat2_LOD1.prefab
+  artifactKey: Guid(c2a3239b920584548bedf5c3858fcd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Boat2_LOD1.prefab using Guid(c2a3239b920584548bedf5c3858fcd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55319b5768beea516fd976a37c7a1644') in 0.018755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.006185 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Boat2_LOD2.prefab
+  artifactKey: Guid(3d2fbf40c5a5dc64b9fff042af972e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Boat2_LOD2.prefab using Guid(3d2fbf40c5a5dc64b9fff042af972e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a161aac1e3df50be06036320d54fe44') in 0.016209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.390478 seconds.
+  path: Assets/Pirates Island/_origin/Models/Boat3.fbx
+  artifactKey: Guid(c870fbfab4673a84084101870d852213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Boat3.fbx using Guid(c870fbfab4673a84084101870d852213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043378c2cf80372d697b4aaa4276364c') in 0.017209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.042742 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Boat3.prefab
+  artifactKey: Guid(fee38f64b1fda904997bac188fae0912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Boat3.prefab using Guid(fee38f64b1fda904997bac188fae0912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd0217e9d560f51c9b9c655fe8a4038') in 0.014565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.785973 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Boat3_LOD1.prefab
+  artifactKey: Guid(0012dc4ee5f1ff44884078fde20c7a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Boat3_LOD1.prefab using Guid(0012dc4ee5f1ff44884078fde20c7a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30156213778d59f0c0acbc92a47003f') in 0.014139 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.049449 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Boat3_LOD2.prefab
+  artifactKey: Guid(0023ddc4bf9bdf94d90a03fd4d25bec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Boat3_LOD2.prefab using Guid(0023ddc4bf9bdf94d90a03fd4d25bec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1235620038fe7eb80db4542a4ce993c') in 0.014721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.033389 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Boat_BaseStand.prefab
+  artifactKey: Guid(2c507d18c27dd4a4884f5777f7eeac06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Boat_BaseStand.prefab using Guid(2c507d18c27dd4a4884f5777f7eeac06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c780c9af64fc9e56195cef13dd2acfb') in 0.018728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.179975 seconds.
+  path: Assets/Pirates Island/_origin/Models/Boat_BaseStand_LOD1.fbx
+  artifactKey: Guid(04b0539fc7a9b8444ad8888662bc90d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Boat_BaseStand_LOD1.fbx using Guid(04b0539fc7a9b8444ad8888662bc90d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d92421172176d0c593c9652b126947') in 0.017252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.079048 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Boat_BaseStand_LOD2.prefab
+  artifactKey: Guid(5d08730720ab22c44a9adfc3c63c1942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Boat_BaseStand_LOD2.prefab using Guid(5d08730720ab22c44a9adfc3c63c1942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ebf4d67b5ec799ab6fd349b2711bd8') in 0.016587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Models/Branch2.fbx
+  artifactKey: Guid(175b97230c5c2144aa6023b6a92d9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Branch2.fbx using Guid(175b97230c5c2144aa6023b6a92d9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a36fb0fcd64ed7ce42468fcc3e9ce90') in 0.029382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.230351 seconds.
+  path: Assets/Pirates Island/_origin/Particles/Butterfly1.prefab
+  artifactKey: Guid(a2a9558ac1842de4ebda9cfb459de0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Particles/Butterfly1.prefab using Guid(a2a9558ac1842de4ebda9cfb459de0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e49ed7c669f49a9ee152256605c869') in 0.016091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pirates Island/_origin/Particles/Butterfly2_big.prefab
+  artifactKey: Guid(b7b514bd4e6e5f641b7fc7851a14e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Particles/Butterfly2_big.prefab using Guid(b7b514bd4e6e5f641b7fc7851a14e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa7a0b145b58acc3ff459526ed4847e') in 0.008451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.064530 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Chest1.prefab
+  artifactKey: Guid(d84255456d6b6314fa6658b7aa54574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Chest1.prefab using Guid(d84255456d6b6314fa6658b7aa54574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b1565d739f3449abf37232b7d0469d') in 0.016101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.191519 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Chest1.prefab
+  artifactKey: Guid(7bcb487159b531d40901dbca95f3f5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Chest1.prefab using Guid(7bcb487159b531d40901dbca95f3f5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a3e5b32183251455ff8de1fafb23e5') in 0.016269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.042065 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Chest1_LOD1.prefab
+  artifactKey: Guid(4273fba7906c93146b4d99d883dfb9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Chest1_LOD1.prefab using Guid(4273fba7906c93146b4d99d883dfb9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffc83f2b5e4c87e754beb77a289fdaf') in 0.022756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 7.376343 seconds.
+  path: Assets/Pirates Island/Standard Assets/Water (Basic)/Daylight Simple Water.prefab
+  artifactKey: Guid(9485b0c79d11e2e4d0007da98d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Water (Basic)/Daylight Simple Water.prefab using Guid(9485b0c79d11e2e4d0007da98d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a6628ba5814e8013e4194b90a34f86') in 0.015805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 7.165381 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Chest2.prefab
+  artifactKey: Guid(db6f8c16dd5e7ee4b81e8ec14c9bc550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Chest2.prefab using Guid(db6f8c16dd5e7ee4b81e8ec14c9bc550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9a7f498539a021f7955e86db8c9ed3') in 0.018153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Chest3.prefab
+  artifactKey: Guid(bdc416706e145be4095d718ca25ffc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Chest3.prefab using Guid(bdc416706e145be4095d718ca25ffc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f14f3b93685d8eead6cba71d0ab214') in 0.021833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Models/Chest2_LOD1.fbx
+  artifactKey: Guid(e74f051457f325242b18fe36c5855a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Chest2_LOD1.fbx using Guid(e74f051457f325242b18fe36c5855a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c15cf609e653c2419b024b063b8eaa') in 0.026250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.080581 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Chest3.prefab
+  artifactKey: Guid(b95e64f6553918f4fa5335cf67d86701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Chest3.prefab using Guid(b95e64f6553918f4fa5335cf67d86701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df8e30a6792b8d359c822e7cf1bc322') in 0.017310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Chest3C.prefab
+  artifactKey: Guid(43a2727565155944fb00fc7c7e3d24b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Chest3C.prefab using Guid(43a2727565155944fb00fc7c7e3d24b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59ab228778549161ad216e241063f1b') in 0.019800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Chest3B.prefab
+  artifactKey: Guid(45bc8ea6e50a0a94c82783c75e56d0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Chest3B.prefab using Guid(45bc8ea6e50a0a94c82783c75e56d0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f55058ba4102b51ace2fd7a97c7c871') in 0.026523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.136605 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Chest4.prefab
+  artifactKey: Guid(bed54b94163414549967fd59976f60f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Chest4.prefab using Guid(bed54b94163414549967fd59976f60f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5265a9ce6040388dc47e05fbafd1e0') in 0.017976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.290182 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Chest4_LOD1.prefab
+  artifactKey: Guid(4bcff76ccba53f74c848f249e3e2d608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Chest4_LOD1.prefab using Guid(4bcff76ccba53f74c848f249e3e2d608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a156f3474f65ca07cf9b8d4b38b01f') in 0.020455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.146816 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Chest5.prefab
+  artifactKey: Guid(2bc0992c208836b40897826de27387c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Chest5.prefab using Guid(2bc0992c208836b40897826de27387c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec004079175f2acc709ed7ff87a1cef') in 0.016628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.073130 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Chest5_LOD1.prefab
+  artifactKey: Guid(b2dcc8599d8ce534884b47a706b22088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Chest5_LOD1.prefab using Guid(b2dcc8599d8ce534884b47a706b22088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34feee58992fa16498bda1ae0489b6df') in 0.017646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Chest5C.prefab
+  artifactKey: Guid(5d5cc098bb908994e84e408b7069bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Chest5C.prefab using Guid(5d5cc098bb908994e84e408b7069bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40855cd888d5ab127eed397604075521') in 0.017126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.060899 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Cliff1A.prefab
+  artifactKey: Guid(87ba9b3059beca240912ff3d8af97849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Cliff1A.prefab using Guid(87ba9b3059beca240912ff3d8af97849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027df227f7978f6def84372c8c55f2c6') in 0.022056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Cliff1B.prefab
+  artifactKey: Guid(ff773035dd4bdbd40a7515a353d6f383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Cliff1B.prefab using Guid(ff773035dd4bdbd40a7515a353d6f383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03958fc92391fc20118b6e53dbf7e0c8') in 0.030383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.090305 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Cliff1C.prefab
+  artifactKey: Guid(ba31c1fd2a190a444821bd6c850d7fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Cliff1C.prefab using Guid(ba31c1fd2a190a444821bd6c850d7fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4438515a957577e3cc9aa3f764cd13d') in 0.020210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/Pirates Island/_origin/Models/Cliff1D.fbx
+  artifactKey: Guid(d8a68725f4b1dc441b6c43735172b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Cliff1D.fbx using Guid(d8a68725f4b1dc441b6c43735172b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e179fa4956d47546916a1f2d592152c') in 0.017293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Cliff1D.prefab
+  artifactKey: Guid(525e99b70e543194f91344bbcbda72f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Cliff1D.prefab using Guid(525e99b70e543194f91344bbcbda72f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419a30ba6cbf70623147ef36e5379803') in 0.024205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.102612 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Cliff1E.prefab
+  artifactKey: Guid(aef8a542638e0be4880a570613f17d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Cliff1E.prefab using Guid(aef8a542638e0be4880a570613f17d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305fc976e0323db99cf6d09b71f250bc') in 0.020586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.004831 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Cliff1F.prefab
+  artifactKey: Guid(a63b55b74ff117743bf70076576beca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Cliff1F.prefab using Guid(a63b55b74ff117743bf70076576beca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f193e0415a117986caf5441c917901') in 0.024026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.112527 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Coconut.prefab
+  artifactKey: Guid(aecd00648d8b6724f9606870028dafc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Coconut.prefab using Guid(aecd00648d8b6724f9606870028dafc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fae5e6554f173c2a4bcecd53a203f5f') in 0.015154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Coconut_LOD1.prefab
+  artifactKey: Guid(0d2376133e6bd524ca384e205b7697c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Coconut_LOD1.prefab using Guid(0d2376133e6bd524ca384e205b7697c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c73e61995dfa9116ff520d689896c4a') in 0.015949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.113051 seconds.
+  path: Assets/Pirates Island/_origin/Models/Coconut_LOD1.fbx
+  artifactKey: Guid(7022a3c4cfaa9d54e9ff9365e7853d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Coconut_LOD1.fbx using Guid(7022a3c4cfaa9d54e9ff9365e7853d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4159d174498412aca0a8cfef5895204') in 0.017897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.050603 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fence1A.prefab
+  artifactKey: Guid(a71bde3832f54e145a358b087bf16641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fence1A.prefab using Guid(a71bde3832f54e145a358b087bf16641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8f8aecd45f37b09799f192f2b9f761') in 0.015854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.070980 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Fence1A.prefab
+  artifactKey: Guid(30447ea09b7c8b74db0d852b8fe28e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Fence1A.prefab using Guid(30447ea09b7c8b74db0d852b8fe28e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f763c635c5d66b90041ca3261780ee') in 0.017790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.001200 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fence1A_LOD1.fbx
+  artifactKey: Guid(a9d06848978a55b448129e4ad1b65689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fence1A_LOD1.fbx using Guid(a9d06848978a55b448129e4ad1b65689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7775a930c7dbd6b5a84768458ec62e71') in 0.021304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fence1B.fbx
+  artifactKey: Guid(d969882b58f53114f92cc581c44caa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fence1B.fbx using Guid(d969882b58f53114f92cc581c44caa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047d6806a9162c04e374244a5159e026') in 0.029272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.071156 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fence1B_LOD1.prefab
+  artifactKey: Guid(e9ec23786623b654686fc34d7a179646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fence1B_LOD1.prefab using Guid(e9ec23786623b654686fc34d7a179646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32aaba786052b987dfe55f656a70198d') in 0.015911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fence1C_LOD1.fbx
+  artifactKey: Guid(be109853ffb15d24780b008ce5ee0aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fence1C_LOD1.fbx using Guid(be109853ffb15d24780b008ce5ee0aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78f705e534c52441df8698fec984a7d') in 0.021130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fence2A.fbx
+  artifactKey: Guid(a7ae51722f50ee84dbbd3f53dce47592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fence2A.fbx using Guid(a7ae51722f50ee84dbbd3f53dce47592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a93c80c445207494320f9a8417d0787') in 0.027094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.003371 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fence2A.prefab
+  artifactKey: Guid(ef9f3eab7649fa3429217597fbb7925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fence2A.prefab using Guid(ef9f3eab7649fa3429217597fbb7925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde73ca97df6190639c20939a4d10dc7') in 0.014096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fence2B.prefab
+  artifactKey: Guid(b277b64a6aa1c4e4dbec3f4f649fc3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fence2B.prefab using Guid(b277b64a6aa1c4e4dbec3f4f649fc3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b0d99e3a74a75182882b38dfb06467') in 0.019415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.023019 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fence2B.fbx
+  artifactKey: Guid(df3c87ffd5842d44db8029e55391fd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fence2B.fbx using Guid(df3c87ffd5842d44db8029e55391fd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e708fe97c397d4ca2763180692fc2a55') in 0.019486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Fence3.prefab
+  artifactKey: Guid(9256db6ea0b2fb64fb561e4d4fec5318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Fence3.prefab using Guid(9256db6ea0b2fb64fb561e4d4fec5318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc2f34af0842843882c8398532d1a87') in 0.029891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.004427 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fence3.prefab
+  artifactKey: Guid(eb763a8f3a533c946816714822d8d1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fence3.prefab using Guid(eb763a8f3a533c946816714822d8d1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b2d287cf9654774d7578334d28a4b9') in 0.019028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.052653 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fence3_LOD1.fbx
+  artifactKey: Guid(2f62166ba3865254fac0acf78ae7e3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fence3_LOD1.fbx using Guid(2f62166ba3865254fac0acf78ae7e3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2560b7e8e9611a9a25c5015aca870a89') in 0.017987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fence3_LOD2.prefab
+  artifactKey: Guid(a7be719768851e14189321086a670475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fence3_LOD2.prefab using Guid(a7be719768851e14189321086a670475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb511564efecf341c61faf751cef009') in 0.016808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.059203 seconds.
+  path: Assets/Pirates Island/Standard Assets/Character Controllers/First Person Controller.prefab
+  artifactKey: Guid(9d4133d5d30b644bd87802a347eaccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Character Controllers/First Person Controller.prefab using Guid(9d4133d5d30b644bd87802a347eaccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b420fbd7fcc237a79c5c006dccf40452') in 0.015239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fishnet1_LOD1.prefab
+  artifactKey: Guid(34977addd1bde034b96e8edaf1fe9821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fishnet1_LOD1.prefab using Guid(34977addd1bde034b96e8edaf1fe9821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61be912daca1f303e67138d2c5eaadfa') in 0.027789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.315456 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fishnet1_LOD1.fbx
+  artifactKey: Guid(d9cbe49581ac2ab4e822504dac978e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fishnet1_LOD1.fbx using Guid(d9cbe49581ac2ab4e822504dac978e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f479ccdf59cde9ad68b01dafc620f30') in 0.016990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.086184 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fishnet2.fbx
+  artifactKey: Guid(8c4ccfdb8cb835a49a298ad50f858fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fishnet2.fbx using Guid(8c4ccfdb8cb835a49a298ad50f858fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1f8a418e5440b230d96a3a08d40f3c') in 0.017766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002046 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fishnet2_LOD1.prefab
+  artifactKey: Guid(b92812b915f8b9745bc9079f2223f624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fishnet2_LOD1.prefab using Guid(b92812b915f8b9745bc9079f2223f624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3d43da72187dd3fa3ef2d6a4c61964') in 0.019693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.226753 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Fishnet3.prefab
+  artifactKey: Guid(db71d730656e2bc469a47a2f5555addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Fishnet3.prefab using Guid(db71d730656e2bc469a47a2f5555addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ecccff33caed215d2a386ea44bb5ea') in 0.020404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.073377 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fishnet3.prefab
+  artifactKey: Guid(2b5ce340729d965459c4e31e6241f559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fishnet3.prefab using Guid(2b5ce340729d965459c4e31e6241f559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1909627f33be85f3f96a7ec0a00aaa0') in 0.021173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fishnet3_LOD2.prefab
+  artifactKey: Guid(878227ef42c1ef64485178c7c77a73f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fishnet3_LOD2.prefab using Guid(878227ef42c1ef64485178c7c77a73f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d786a4dfa9e28ddcbb001ae664b683') in 0.023537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.113441 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Flag.prefab
+  artifactKey: Guid(56d6edcb73b1cbf4397f23cce65b6764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Flag.prefab using Guid(56d6edcb73b1cbf4397f23cce65b6764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4776231b68dda1332418a5e110833f0c') in 0.038206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/Ship/Galleon_LODed_sails_open.prefab
+  artifactKey: Guid(3d84b03a72903ae4c975baba3c17e1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Ship/Galleon_LODed_sails_open.prefab using Guid(3d84b03a72903ae4c975baba3c17e1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2fc21242e577f0382aa3e9ad0056d9') in 0.043007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 479
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/Ship/Galleon_LODed.prefab
+  artifactKey: Guid(2f55e9592f047704dbb496ea0c50566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Ship/Galleon_LODed.prefab using Guid(2f55e9592f047704dbb496ea0c50566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade5aafaf8b5e022b513160d08352db4') in 0.044408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 479
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Garbage1.prefab
+  artifactKey: Guid(857b35b790509d54a8c23b53e3ab696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Garbage1.prefab using Guid(857b35b790509d54a8c23b53e3ab696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb497181c329e8d1e37f25af09c27a28') in 0.021492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Garbage1_LOD1.prefab
+  artifactKey: Guid(87853c3c11a74ee48a2601c7a8d6fcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Garbage1_LOD1.prefab using Guid(87853c3c11a74ee48a2601c7a8d6fcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9fb965031ef6eaa5f9bb2d7222c901') in 0.024263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Garbage1.prefab
+  artifactKey: Guid(29ae68c793c83944a9a59758cf7d9b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Garbage1.prefab using Guid(29ae68c793c83944a9a59758cf7d9b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be2f5a20084821f4ff40480eaae20be') in 0.016512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pirates Island/Ship/Galleon_LOD2.fbx
+  artifactKey: Guid(880220a5b95e0de4cb56595c3d7a9172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Ship/Galleon_LOD2.fbx using Guid(880220a5b95e0de4cb56595c3d7a9172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f2d457de9eba3cef829057d17f871b') in 0.272886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Pirates Island/_origin/Models/Garbage3.fbx
+  artifactKey: Guid(889b3304d403948488b600ec5b60d664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Garbage3.fbx using Guid(889b3304d403948488b600ec5b60d664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d455775aca79ef597f8d921b929ebd') in 0.022623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pirates Island/_origin/Models/Garbage3_LOD1.fbx
+  artifactKey: Guid(9e548f254e2184b42b3e5a13ed4563ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Garbage3_LOD1.fbx using Guid(9e548f254e2184b42b3e5a13ed4563ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb8108810bc94c04269f1d5f509c391') in 0.027929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.107369 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Garbage4.prefab
+  artifactKey: Guid(30495414e10c5e94db10136625e632a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Garbage4.prefab using Guid(30495414e10c5e94db10136625e632a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7323b6238c7b74a740caf4648741b3') in 0.017189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.082299 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House1.prefab
+  artifactKey: Guid(acd0c1e6a68601b439dfda8e6309b00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House1.prefab using Guid(acd0c1e6a68601b439dfda8e6309b00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919a0fdc3397008bcfef5a64f9060302') in 0.034999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 229
+========================================================================
+Received Import Request.
+  Time since last request: 0.150275 seconds.
+  path: Assets/Pirates Island/_origin/Models/House1.fbx
+  artifactKey: Guid(aa8e9574f1ac0f34b9c24ec30475b7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House1.fbx using Guid(aa8e9574f1ac0f34b9c24ec30475b7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9561a85fc350a29ac794221d0bd64ce0') in 0.040985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.050670 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House1_LOD2.prefab
+  artifactKey: Guid(32d0f66ebf338cc468624713ac28d720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House1_LOD2.prefab using Guid(32d0f66ebf338cc468624713ac28d720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4763902a7aaddddc6040b4655b30547a') in 0.035647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.049508 seconds.
+  path: Assets/Pirates Island/_origin/Models/House2.fbx
+  artifactKey: Guid(e3ff128f67fc1874ab980edb3a7b0e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House2.fbx using Guid(e3ff128f67fc1874ab980edb3a7b0e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97834e354a0afedb0aaa76a93747da7') in 0.039446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House2_LOD1.prefab
+  artifactKey: Guid(05ff0c6a60262bc4ebcf67c277716c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House2_LOD1.prefab using Guid(05ff0c6a60262bc4ebcf67c277716c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e075598f65e310b0b6a0897d08bbe55b') in 0.042930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.054881 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House3.prefab
+  artifactKey: Guid(5d1db07ef5e5cd14a894d40928c1dfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House3.prefab using Guid(5d1db07ef5e5cd14a894d40928c1dfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e076db1fc6a63d059f7f37e940ed46') in 0.036009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 335
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/_origin/Models/House4_LOD1.fbx
+  artifactKey: Guid(cf4e8c6753b4d7246a04dfb3f288998f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House4_LOD1.fbx using Guid(cf4e8c6753b4d7246a04dfb3f288998f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33044f8b1b76cefa7851cad26d867290') in 0.062063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House4_LOD2.prefab
+  artifactKey: Guid(9a63ecc776316bc488dfdac72befa230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House4_LOD2.prefab using Guid(9a63ecc776316bc488dfdac72befa230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad8d91e28cd1bf277f2ac6fba8df627') in 0.027269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House5.prefab
+  artifactKey: Guid(50a56516bb618f540aae3de2fe5c9032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House5.prefab using Guid(50a56516bb618f540aae3de2fe5c9032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59625cb84275ea1d7f2f2156f517e95d') in 0.032782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Pirates Island/_origin/Models/House5.fbx
+  artifactKey: Guid(431bad6c79aa4b449bd746382104c6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House5.fbx using Guid(431bad6c79aa4b449bd746382104c6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b7f27516641f59df771d8612c62b81') in 0.056361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.703680 seconds.
+  path: Assets/Pirates Island/_origin/Models/House5_LOD1.fbx
+  artifactKey: Guid(edaa7bd7acc512f4583f9ba44545820a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House5_LOD1.fbx using Guid(edaa7bd7acc512f4583f9ba44545820a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d616974b26dff9912b1c40c912a1cb') in 0.038681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House6.prefab
+  artifactKey: Guid(b0d4655cc665d9b4a93e7792e5bf04b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House6.prefab using Guid(b0d4655cc665d9b4a93e7792e5bf04b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef66798dace59d3e5c0e9697625dbd4') in 0.035898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 297
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/House6.prefab
+  artifactKey: Guid(77b8d7aaf2819e449b86684c1e3f2c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/House6.prefab using Guid(77b8d7aaf2819e449b86684c1e3f2c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342942f910eba5a77af1b2f2b52b34db') in 0.046426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 334
+========================================================================
+Received Import Request.
+  Time since last request: 0.022926 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House6_LOD2.prefab
+  artifactKey: Guid(d0ee3b5c74b37cd46a2aee87c7ea66bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House6_LOD2.prefab using Guid(d0ee3b5c74b37cd46a2aee87c7ea66bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d81b4553a29ddc389ec555378429545') in 0.041686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/House8.prefab
+  artifactKey: Guid(e5634394f8ada524a96894ef7d19cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/House8.prefab using Guid(e5634394f8ada524a96894ef7d19cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fca00ec98b22b47b5aa776bc7b3529d') in 0.032003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/House7.prefab
+  artifactKey: Guid(c77f6f3c4166ab74e9caaafff2dd0954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/House7.prefab using Guid(c77f6f3c4166ab74e9caaafff2dd0954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab9f159232526bbc7f113921b0fb689') in 0.043799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 0.024484 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House8.prefab
+  artifactKey: Guid(2f5d75c13b67d78409bb24719110ef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House8.prefab using Guid(2f5d75c13b67d78409bb24719110ef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883127e7c34bd921540b3dfce13b1f5a') in 0.031580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/_origin/Models/House8.fbx
+  artifactKey: Guid(b09dc7bcf5993814da91121a41785a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House8.fbx using Guid(b09dc7bcf5993814da91121a41785a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be668aab0246354d83fd4d40f83e6441') in 0.049978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/House10.prefab
+  artifactKey: Guid(bef55c6296e3c3d478099b5df5fbd82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/House10.prefab using Guid(bef55c6296e3c3d478099b5df5fbd82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e07f46ddd56048d3423727ac55b5831') in 0.038790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 232
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House10_LOD1.prefab
+  artifactKey: Guid(c2196fe2f5004eb409bd728036291bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House10_LOD1.prefab using Guid(c2196fe2f5004eb409bd728036291bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e98f2652fc2824ad7b474cef49b4f07') in 0.034548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.106780 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House10_LOD2.prefab
+  artifactKey: Guid(076b22e296504214fa99f65d8c34598e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House10_LOD2.prefab using Guid(076b22e296504214fa99f65d8c34598e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fc6d980094f40676fced57b1635b97') in 0.027545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.136933 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/House11.prefab
+  artifactKey: Guid(0c7fe500180e9d54dab7680f2915a836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/House11.prefab using Guid(0c7fe500180e9d54dab7680f2915a836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5570212344c61c3990ae1f526ffed15') in 0.029981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.043100 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House11_LOD1.prefab
+  artifactKey: Guid(9fd81732267d7364fa6976a5dcc412e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House11_LOD1.prefab using Guid(9fd81732267d7364fa6976a5dcc412e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f1a01ad78ba1524fbbd55b121b8f0d') in 0.030538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Ladder.prefab
+  artifactKey: Guid(2f8264db315178a49af0c0ffbed74dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Ladder.prefab using Guid(2f8264db315178a49af0c0ffbed74dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b805815e38202b0882f3a7d6dddda4bc') in 0.020157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.052243 seconds.
+  path: Assets/Pirates Island/_origin/Models/Ladder.fbx
+  artifactKey: Guid(9a2f3c0da00980a40bc8c62378b0871e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Ladder.fbx using Guid(9a2f3c0da00980a40bc8c62378b0871e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac43a87b76787256c8eaf0082be307a8') in 0.018474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/_origin/Models/Lamp1A.fbx
+  artifactKey: Guid(89e7a59e71d66e849aa57cc0b551de2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Lamp1A.fbx using Guid(89e7a59e71d66e849aa57cc0b551de2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eacd71ba47329c92cff0ca5a09ff9d9') in 0.017992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.122997 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Lamp1A.prefab
+  artifactKey: Guid(958dc2ca0417a1241891f89f78869afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Lamp1A.prefab using Guid(958dc2ca0417a1241891f89f78869afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dbf27a8acc4eb52c37b44dd24c9471') in 0.018859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Lamp1A_LOD1.prefab
+  artifactKey: Guid(0e60c07b395c2474e946ffd58a687947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Lamp1A_LOD1.prefab using Guid(0e60c07b395c2474e946ffd58a687947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684924ccf7fc3526e9c6259dc2a789a5') in 0.040946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.030008 seconds.
+  path: Assets/Pirates Island/_origin/Models/Lamp1A_LOD2.fbx
+  artifactKey: Guid(c6e7900613843e64b923d0661ff38248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Lamp1A_LOD2.fbx using Guid(c6e7900613843e64b923d0661ff38248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d64bbb834d1c1005dfb5a215284a108') in 0.017916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.031614 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Lamp1B.prefab
+  artifactKey: Guid(ece4522504a6ac747bb931fb00ab9b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Lamp1B.prefab using Guid(ece4522504a6ac747bb931fb00ab9b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5434571812864e47536b352ac5680fd4') in 0.018186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Lamp1B_LOD1.prefab
+  artifactKey: Guid(eb06bbd0807e1ab4394c300302779cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Lamp1B_LOD1.prefab using Guid(eb06bbd0807e1ab4394c300302779cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba52f91749d32950c5ac432f69674ba0') in 0.014762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.013095 seconds.
+  path: Assets/Pirates Island/_origin/Models/Lamp1B_LOD1.fbx
+  artifactKey: Guid(c7109a9385ce02049af789debfe86464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Lamp1B_LOD1.fbx using Guid(c7109a9385ce02049af789debfe86464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a9976b14d0aff6fa03ed5d334826d4') in 0.016588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Mast.prefab
+  artifactKey: Guid(039fac7765f6eab4ca6b67f6150c17bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Mast.prefab using Guid(039fac7765f6eab4ca6b67f6150c17bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251e17224b18e80f192ea1a59b0206ca') in 0.023531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Mast.prefab
+  artifactKey: Guid(9f7e027f4894f4443b30cc9fbf5cf8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Mast.prefab using Guid(9f7e027f4894f4443b30cc9fbf5cf8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a01028445443ce31479e6b3ceca645c') in 0.023023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.008524 seconds.
+  path: Assets/Pirates Island/Standard Assets/Water (Basic)/Nighttime Simple Water.prefab
+  artifactKey: Guid(6b436d069d11415d1100ab9b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Water (Basic)/Nighttime Simple Water.prefab using Guid(6b436d069d11415d1100ab9b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe712de025426ddcd9690086bce2f052') in 0.020337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Palisade1.prefab
+  artifactKey: Guid(028d1ecc2c7cfd5488c746faf522fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Palisade1.prefab using Guid(028d1ecc2c7cfd5488c746faf522fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f8f97df020cd184ceaf26fab82b0e0') in 0.032542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.039033 seconds.
+  path: Assets/Pirates Island/_origin/Models/Palisade1_LOD1.fbx
+  artifactKey: Guid(c4f76651d16e24948be0d37039836b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Palisade1_LOD1.fbx using Guid(c4f76651d16e24948be0d37039836b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd22fd018ae2fbf05d170eaebdeb32c') in 0.017141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Palisade1_LOD2.prefab
+  artifactKey: Guid(24524e122d5d48441a804fa5be7f8c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Palisade1_LOD2.prefab using Guid(24524e122d5d48441a804fa5be7f8c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0956e7ea209b8453fc7cae54a6b3bd1b') in 0.025372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.043428 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Palisade2.prefab
+  artifactKey: Guid(f4b84cf509536e04c9156c9d4ae7fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Palisade2.prefab using Guid(f4b84cf509536e04c9156c9d4ae7fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6571db498ee671ee3eef2f1ccdc81b40') in 0.018107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Models/Palisade2_LOD2.fbx
+  artifactKey: Guid(6bca200af8083be45bd2c3575234f0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Palisade2_LOD2.fbx using Guid(6bca200af8083be45bd2c3575234f0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb198c86d69394f412c39dd7ed7e001') in 0.022193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/_origin/Models/Palisade2_LOD1.fbx
+  artifactKey: Guid(61e2207c6dd4f5e4086d2d79d5608519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Palisade2_LOD1.fbx using Guid(61e2207c6dd4f5e4086d2d79d5608519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7999732bec5433503e1bfbf014922d14') in 0.026944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.007360 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Palisade3.prefab
+  artifactKey: Guid(8a6bdfc1a83125b429efd3eca27f31e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Palisade3.prefab using Guid(8a6bdfc1a83125b429efd3eca27f31e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9fc2e51c6adda5425c2f08ffda0d87') in 0.018288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/_origin/Models/Palisade3_LOD2.fbx
+  artifactKey: Guid(efa39dd4f17a33a429726cad9592ad00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Palisade3_LOD2.fbx using Guid(efa39dd4f17a33a429726cad9592ad00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a245ef26750c1667a7b7fbe32cce0f5') in 0.022342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.013628 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Pier1.prefab
+  artifactKey: Guid(d1d110c648cd8534d8d9f5f34cad2d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Pier1.prefab using Guid(d1d110c648cd8534d8d9f5f34cad2d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac715649979f95c2df08e3079f9a2aac') in 0.020131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pier1_LOD1.prefab
+  artifactKey: Guid(67500fc62517fac4994a2cbc91eaa670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pier1_LOD1.prefab using Guid(67500fc62517fac4994a2cbc91eaa670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6585612546b86f90305a73183a76bd5') in 0.023189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.028868 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pier2_LOD2.prefab
+  artifactKey: Guid(bff715dac1b839140ae8511563bc0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pier2_LOD2.prefab using Guid(bff715dac1b839140ae8511563bc0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8505e663f2ae55d42d7fc0bca059abe5') in 0.014452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.002015 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pier3.prefab
+  artifactKey: Guid(ecc86885fa78dcd4db8cd54a0ada7222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pier3.prefab using Guid(ecc86885fa78dcd4db8cd54a0ada7222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012b883eae3a30443de7ed98e664edd4') in 0.020237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pier_Stairs1.fbx
+  artifactKey: Guid(1773034d90edff845bbb7c5d0fae4195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pier_Stairs1.fbx using Guid(1773034d90edff845bbb7c5d0fae4195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88e35a79ace5610b0071e6cfd28546a') in 0.021961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.019607 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pier_Stairs1_LOD1.fbx
+  artifactKey: Guid(bf6be73d1ffad4647b7d8c90180c8b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pier_Stairs1_LOD1.fbx using Guid(bf6be73d1ffad4647b7d8c90180c8b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2b6defdb016c88760d2eae3de74354') in 0.018057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Pier_Stairs2.prefab
+  artifactKey: Guid(dd0bf9b3c058e884d9191bc43dfc1005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Pier_Stairs2.prefab using Guid(dd0bf9b3c058e884d9191bc43dfc1005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59aa985ac3a5eee070260cb31eeba93') in 0.021813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pier_Stairs2_LOD2.prefab
+  artifactKey: Guid(0983cb020fcc27149b3e37358deb8483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pier_Stairs2_LOD2.prefab using Guid(0983cb020fcc27149b3e37358deb8483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199cd9887421259d07cb39e1eb71951d') in 0.021461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.015278 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pier_Stairs2_LOD2.fbx
+  artifactKey: Guid(9df2568b4d48ea941b701146daf1b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pier_Stairs2_LOD2.fbx using Guid(9df2568b4d48ea941b701146daf1b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01c980553befadbbcdce81d778512a5') in 0.017019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.021416 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Pier_Stairs3.prefab
+  artifactKey: Guid(f9d3b2d1fe18b994a816b2697b1894c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Pier_Stairs3.prefab using Guid(f9d3b2d1fe18b994a816b2697b1894c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2819ab73e549e50939ce7a3e39f2ab') in 0.019886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pier_Stairs3_LOD1.prefab
+  artifactKey: Guid(7306490ae3765b345aa46c6d14c6406b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pier_Stairs3_LOD1.prefab using Guid(7306490ae3765b345aa46c6d14c6406b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c72a486a0f550363fb7e075e0832c7') in 0.019376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.019546 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Platform2.prefab
+  artifactKey: Guid(817e6955b30adb941acadf62ff5b4079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Platform2.prefab using Guid(817e6955b30adb941acadf62ff5b4079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7de312e13461136d326d338ace586c7') in 0.016755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/_origin/Models/Platform2_LOD1.fbx
+  artifactKey: Guid(9567e54d5ff9bfa419244bee8cd993a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Platform2_LOD1.fbx using Guid(9567e54d5ff9bfa419244bee8cd993a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5e75f713bebbd4e0cbe441407f09c7') in 0.020984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pirates Island/_origin/Models/Platform2_LOD2.fbx
+  artifactKey: Guid(008e0236e19f2b0449e3d427edc4fffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Platform2_LOD2.fbx using Guid(008e0236e19f2b0449e3d427edc4fffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c28893b501890cc56632f468944c935') in 0.034185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.004594 seconds.
+  path: Assets/Pirates Island/_origin/Models/Platform3.fbx
+  artifactKey: Guid(1edf4ad4bd234a6428093f0b6c7fd842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Platform3.fbx using Guid(1edf4ad4bd234a6428093f0b6c7fd842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8d87dc740de8003cc8beebe1810ff4') in 0.017611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Platform3_LOD2.prefab
+  artifactKey: Guid(aa8a96faef0b5504f8d6ba9d5b542539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Platform3_LOD2.prefab using Guid(aa8a96faef0b5504f8d6ba9d5b542539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cae9801f75a25cde79c4d63fbd3f99') in 0.021868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pole1.fbx
+  artifactKey: Guid(e02f1e97e968363429c3906cfcd6608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pole1.fbx using Guid(e02f1e97e968363429c3906cfcd6608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58b4a24819ea118b993f821bdcf459a') in 0.026098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.005583 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pole2.fbx
+  artifactKey: Guid(34cc0b11e22424b4eb7ff21597829808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pole2.fbx using Guid(34cc0b11e22424b4eb7ff21597829808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8374f2503e35c4c85ab8a5e7956f5d68') in 0.016918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pole2_LOD2.fbx
+  artifactKey: Guid(5392145517e48c94c952199458a40f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pole2_LOD2.fbx using Guid(5392145517e48c94c952199458a40f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ded78586c652edc6a040912188e80c2') in 0.022145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Waterfall/Models/Rock.FBX
+  artifactKey: Guid(d43d928a34db8d6469b9a6d8c8c7f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waterfall/Models/Rock.FBX using Guid(d43d928a34db8d6469b9a6d8c8c7f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e7d9f5483f03f24e86d36032c3fdb4') in 0.034049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.009234 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Rock3C.prefab
+  artifactKey: Guid(c010dbfb94054b941940bf72fa2d827f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Rock3C.prefab using Guid(c010dbfb94054b941940bf72fa2d827f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5212e1d84180158e74dc5482b3f0b0') in 0.017633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pirates Island/_origin/Models/Rock4.fbx
+  artifactKey: Guid(1412186490f00a443b3407b5ff5ac431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Rock4.fbx using Guid(1412186490f00a443b3407b5ff5ac431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effe9ae3571c86f843392122ea5c8aab') in 0.022079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Rock4_LOD1.prefab
+  artifactKey: Guid(40edd235108254845b16ae81207b9863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Rock4_LOD1.prefab using Guid(40edd235108254845b16ae81207b9863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5da91cd8efc196c17fca7bce40f438') in 0.023378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005477 seconds.
+  path: Assets/Pirates Island/_origin/Models/Rope4_LOD1.fbx
+  artifactKey: Guid(a3c694f24bc3ec849996d03e9e498520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Rope4_LOD1.fbx using Guid(a3c694f24bc3ec849996d03e9e498520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76c98e3a1e35560a1e9fc2f622c0be7') in 0.018678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Scaff1.prefab
+  artifactKey: Guid(c9a2669badbf3e945ba41843a29537a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Scaff1.prefab using Guid(c9a2669badbf3e945ba41843a29537a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cf3a0f68c09d2491088e16b62ca0e7') in 0.023397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Scaff2.prefab
+  artifactKey: Guid(01fc57bc884aa9443af0fd61c352fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Scaff2.prefab using Guid(01fc57bc884aa9443af0fd61c352fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f8619c249f5157906c00711d53468e') in 0.032397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.012895 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Shed1.prefab
+  artifactKey: Guid(f54bb696a1b82864087b0bf8fc351df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Shed1.prefab using Guid(f54bb696a1b82864087b0bf8fc351df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20becd8013ccad28045d49ad050de20') in 0.031898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Shed3.prefab
+  artifactKey: Guid(f6ac0bbfb0ffd3e4a9ba4733b8867238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Shed3.prefab using Guid(f6ac0bbfb0ffd3e4a9ba4733b8867238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c6b90706b01f38b44e06d74c02ae9a') in 0.027602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Shed2_LOD1.prefab
+  artifactKey: Guid(37bb40d8bb1fbcf4093ed6524c828446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Shed2_LOD1.prefab using Guid(37bb40d8bb1fbcf4093ed6524c828446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a787c90f285936425bb12b9cfc8346ee') in 0.024164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.003993 seconds.
+  path: Assets/Pirates Island/_origin/Models/Shed3_LOD1.fbx
+  artifactKey: Guid(381f49257788e9c47950b77706a2ce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Shed3_LOD1.fbx using Guid(381f49257788e9c47950b77706a2ce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55eacb955db6cccf6f30640f4485e2a5') in 0.016034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.003365 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Shed4.prefab
+  artifactKey: Guid(105ce3be27dd1004e9f7f63e1bd2ed6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Shed4.prefab using Guid(105ce3be27dd1004e9f7f63e1bd2ed6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a80bdd0592abf3de3a317da933d0eb9') in 0.011631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.001599 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Shed5.prefab
+  artifactKey: Guid(7dea58902c9f5544eb1de09f41b54d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Shed5.prefab using Guid(7dea58902c9f5544eb1de09f41b54d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8820453de24f27f09dcdac949149e13f') in 0.029374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.028936 seconds.
+  path: Assets/Pirates Island/_origin/Models/Small_Stone2.fbx
+  artifactKey: Guid(94c411600c896e447af3d37df3e776d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Small_Stone2.fbx using Guid(94c411600c896e447af3d37df3e776d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccbf5066ffb2b92e2d47cd497aa6c18') in 0.019251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pirates Island/_origin/Models/Stall1.fbx
+  artifactKey: Guid(0b53c24ceca85954b85cce146e4483a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Stall1.fbx using Guid(0b53c24ceca85954b85cce146e4483a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a45ee0e44fefd608253072256b296f') in 0.023724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Stall1_LOD1.prefab
+  artifactKey: Guid(d4dbef38bddc1ba4fa9ee1a961b19ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Stall1_LOD1.prefab using Guid(d4dbef38bddc1ba4fa9ee1a961b19ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ba7083aa477d0c3b773aae52209598') in 0.020094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.004696 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Tower1.prefab
+  artifactKey: Guid(7b6d8e18ccc82af4384b13d3fa8f350b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Tower1.prefab using Guid(7b6d8e18ccc82af4384b13d3fa8f350b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02ca105a8487cb6e81833aef5df8d10') in 0.025753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Tower1_LOD2.prefab
+  artifactKey: Guid(3fd3b19dc6c4a364385646ebf845ad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Tower1_LOD2.prefab using Guid(3fd3b19dc6c4a364385646ebf845ad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ff41bd8f05babfaf31e2dd07817727') in 0.029081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pirates Island/_origin/Models/Tower1_LOD2.fbx
+  artifactKey: Guid(a7f1a4e56836d054eab9f3723bc11c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Tower1_LOD2.fbx using Guid(a7f1a4e56836d054eab9f3723bc11c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714cea5e3d2df353d81a13e5cd5e8a7d') in 0.017416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.004241 seconds.
+  path: Assets/Pirates Island/_origin/Models/Tower2_LOD1.fbx
+  artifactKey: Guid(9cbbb211ba2ace84f8522fec6d3a88fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Tower2_LOD1.fbx using Guid(9cbbb211ba2ace84f8522fec6d3a88fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6492c270db2e536e6a39a7ffcf20ec88') in 0.040544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Models/Tower2_LOD2.fbx
+  artifactKey: Guid(5e21ec3604b2f2d4386a47f80f5aaa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Tower2_LOD2.fbx using Guid(5e21ec3604b2f2d4386a47f80f5aaa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3afe385e372011cabd5321d37ee0f61') in 0.036930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.022616 seconds.
+  path: Assets/Pirates Island/Nature/Tree4B.prefab
+  artifactKey: Guid(0a5205fb29ecb35478913b22fc6d45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/Tree4B.prefab using Guid(0a5205fb29ecb35478913b22fc6d45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561ab7a10b5690fbfd73c73edc92733b') in 0.044182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Water4Example (Advanced) _copy.prefab
+  artifactKey: Guid(552fcdc7de64cfb478132892bd9b2ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Water4Example (Advanced) _copy.prefab using Guid(552fcdc7de64cfb478132892bd9b2ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37c83dcb72eedcab398273d3f30e020') in 0.013370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.033484 seconds.
+  path: Assets/Waterfall/Particles/WaterFall.prefab
+  artifactKey: Guid(9cbf17731337cfc4e90f392fc74b7e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waterfall/Particles/WaterFall.prefab using Guid(9cbf17731337cfc4e90f392fc74b7e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1ad782788593bf8eacea22e5ad717e') in 0.006689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.004804 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Wood_Stairs2.prefab
+  artifactKey: Guid(c647984962093054886a232899e61802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Wood_Stairs2.prefab using Guid(c647984962093054886a232899e61802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df52296d644ad2e7db2969ab7279a8dd') in 0.042902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.020548 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/WoodStairs1_LOD1.prefab
+  artifactKey: Guid(a3d0a2b61f5aab3419760b17d5947e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/WoodStairs1_LOD1.prefab using Guid(a3d0a2b61f5aab3419760b17d5947e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6c4cf8458355dc7507e83ec472c75a') in 0.016846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Models/WoodStairs2_LOD1.fbx
+  artifactKey: Guid(912a17784702ab648b70ae2c84bfca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/WoodStairs2_LOD1.fbx using Guid(912a17784702ab648b70ae2c84bfca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f051fb744f623e58946cf618b79a23c') in 0.022554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pirates Island/_origin/Models/WoodStairs2_LOD2.fbx
+  artifactKey: Guid(afa6d948b61b193428a9dc2e255211ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/WoodStairs2_LOD2.fbx using Guid(afa6d948b61b193428a9dc2e255211ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b1ce690ea0f319440c5819b6383a1') in 0.029919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.006943 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/WoodStairs2_LOD2.prefab
+  artifactKey: Guid(84d67455dd2f24141bf96df264546ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/WoodStairs2_LOD2.prefab using Guid(84d67455dd2f24141bf96df264546ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0457b33b796963ee9d42da0cfe2d6466') in 0.017562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.035378 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/WoodStairs3.prefab
+  artifactKey: Guid(e9f911d261d36e84cb666297b69e4492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/WoodStairs3.prefab using Guid(e9f911d261d36e84cb666297b69e4492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d0dda5493ad820e174594f25b2503c') in 0.019576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pirates Island/_origin/Models/WoodStairs4.fbx
+  artifactKey: Guid(ec52d7db6c9a7ff438121ec6a4309409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/WoodStairs4.fbx using Guid(ec52d7db6c9a7ff438121ec6a4309409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e6081a9f56aa603966a00588f950c1') in 0.020348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.033353 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/WoodStairs4.prefab
+  artifactKey: Guid(62574a3ff0580f64fa67aa0581e6c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/WoodStairs4.prefab using Guid(62574a3ff0580f64fa67aa0581e6c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e923ffa88e7e83b603e8d3a024632b9') in 0.027370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

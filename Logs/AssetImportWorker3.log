@@ -15,7 +15,7 @@ E:/Projects/timeEscape
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-58802
+60092
 Successfully changed project path to: E:/Projects/timeEscape
 E:/Projects/timeEscape
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Projects/timeEscape
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5704] Host "[IP] 192.168.100.56 [Port] 0 [Flags] 2 [Guid] 2152899861 [EditorId] 2152899861 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23320] Host "[IP] 192.168.100.56 [Port] 0 [Flags] 2 [Guid] 983490906 [EditorId] 983490906 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5704] Host "[IP] 192.168.100.56 [Port] 0 [Flags] 2 [Guid] 2152899861 [EditorId] 2152899861 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23320] Host "[IP] 192.168.100.56 [Port] 0 [Flags] 2 [Guid] 983490906 [EditorId] 983490906 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 4.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path E:/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002797 seconds.
-- Loaded All Assemblies, in  0.286 seconds
+Registered in 0.002864 seconds.
+- Loaded All Assemblies, in  0.279 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.199 seconds
-Domain Reload Profiling: 485ms
-	BeginReloadAssembly (84ms)
+- Finished resetting the current domain, in  0.217 seconds
+Domain Reload Profiling: 496ms
+	BeginReloadAssembly (89ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (84ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (88ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (122ms)
-				TypeCache.ScanAssembly (110ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (99ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (199ms)
+	FinalizeReload (217ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (154ms)
+		SetupLoadedEditorAssemblies (167ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 485ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.504 seconds
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.465 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,450 +126,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.598 seconds
-Domain Reload Profiling: 1103ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.592 seconds
+Domain Reload Profiling: 1057ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (324ms)
-		LoadAssemblies (241ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (198ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
+		AnalyzeDomain (154ms)
 			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (119ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (598ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (465ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (384ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (58.0 KB). Loaded Objects now: 3740.
-Memory consumption went from 239.9 MB to 239.8 MB.
-Total: 3.382300 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.140000 ms MarkObjects: 2.887800 ms  DeleteObjects: 0.135800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.410 seconds
-Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.122 seconds
-Domain Reload Profiling: 1532ms
-	BeginReloadAssembly (156ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (189ms)
-		LoadAssemblies (260ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (1123ms)
+	FinalizeReload (593ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (721ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (595ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3743.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 6.234100 ms (FindLiveObjects: 0.529600 ms CreateObjectMapping: 0.338200 ms MarkObjects: 5.289900 ms  DeleteObjects: 0.075400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.351 seconds
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.991 seconds
-Domain Reload Profiling: 1342ms
-	BeginReloadAssembly (134ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (164ms)
-		LoadAssemblies (217ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (991ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (584ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (497ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3746.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 5.712400 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.246800 ms MarkObjects: 5.068900 ms  DeleteObjects: 0.088200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.386 seconds
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.830 seconds
-Domain Reload Profiling: 1216ms
-	BeginReloadAssembly (142ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (253ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (830ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (439ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (362ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3749.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 3.566200 ms (FindLiveObjects: 0.262000 ms CreateObjectMapping: 0.212100 ms MarkObjects: 3.037600 ms  DeleteObjects: 0.053600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.449 seconds
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.034 seconds
-Domain Reload Profiling: 1483ms
-	BeginReloadAssembly (162ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (210ms)
-		LoadAssemblies (292ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1035ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (554ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (460ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3752.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 6.575600 ms (FindLiveObjects: 0.709700 ms CreateObjectMapping: 0.413700 ms MarkObjects: 5.346900 ms  DeleteObjects: 0.102900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.386 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.795 seconds
-Domain Reload Profiling: 1181ms
-	BeginReloadAssembly (138ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (244ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (795ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
+		SetupLoadedEditorAssemblies (459ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (380ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3755.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 4.364300 ms (FindLiveObjects: 0.522400 ms CreateObjectMapping: 0.401800 ms MarkObjects: 3.358300 ms  DeleteObjects: 0.080600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.381 seconds
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.775 seconds
-Domain Reload Profiling: 1157ms
-	BeginReloadAssembly (134ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (189ms)
-		LoadAssemblies (245ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (776ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (447ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (377ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.30 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3758.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 4.459500 ms (FindLiveObjects: 0.278600 ms CreateObjectMapping: 0.107400 ms MarkObjects: 4.003800 ms  DeleteObjects: 0.068400 ms)
+Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (57.6 KB). Loaded Objects now: 3741.
+Memory consumption went from 240.1 MB to 240.1 MB.
+Total: 3.475100 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.174700 ms MarkObjects: 2.885800 ms  DeleteObjects: 0.124700 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -585,404 +183,1167 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.386 seconds
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.802 seconds
-Domain Reload Profiling: 1189ms
-	BeginReloadAssembly (133ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (195ms)
-		LoadAssemblies (246ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (803ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (455ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (377ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (38.0 KB). Loaded Objects now: 3761.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 5.550600 ms (FindLiveObjects: 0.538700 ms CreateObjectMapping: 0.319500 ms MarkObjects: 4.617200 ms  DeleteObjects: 0.073700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 46880.324686 seconds.
+  path: Assets/Pirates Island/_origin/Models/Boat1_LOD2.fbx
+  artifactKey: Guid(9fe08dad36f48404fade25e798b7afdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Boat1_LOD2.fbx using Guid(9fe08dad36f48404fade25e798b7afdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95501491e34ccc6673c17cfb3ddfe382') in 0.134139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.375 seconds
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.796 seconds
-Domain Reload Profiling: 1172ms
-	BeginReloadAssembly (133ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (185ms)
-		LoadAssemblies (244ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (797ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (443ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (370ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (34.7 KB). Loaded Objects now: 3764.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 5.479200 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.298100 ms MarkObjects: 4.638700 ms  DeleteObjects: 0.078100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1.894719 seconds.
+  path: Assets/Pirates Island/_origin/Models/Branch1.fbx
+  artifactKey: Guid(1f938b9b9b08980448f219d89f94d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Branch1.fbx using Guid(1f938b9b9b08980448f219d89f94d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad56d9cde982409ecac1952d5246ef70') in 0.022388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.387 seconds
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.808 seconds
-Domain Reload Profiling: 1195ms
-	BeginReloadAssembly (137ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (196ms)
-		LoadAssemblies (259ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (809ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (470ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (393ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3767.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 5.697500 ms (FindLiveObjects: 0.535600 ms CreateObjectMapping: 0.279500 ms MarkObjects: 4.797700 ms  DeleteObjects: 0.082800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.270379 seconds.
+  path: Assets/Pirates Island/_origin/Particles/Butterfly2.prefab
+  artifactKey: Guid(92d4e0dafecb29e4db95db369690100d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Particles/Butterfly2.prefab using Guid(92d4e0dafecb29e4db95db369690100d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae33b3a38325eb0fa76b0b134090ffa') in 0.011377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.370 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.859 seconds
-Domain Reload Profiling: 1229ms
-	BeginReloadAssembly (127ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (184ms)
-		LoadAssemblies (236ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (859ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (490ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (412ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3770.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 5.835100 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.160400 ms MarkObjects: 5.240500 ms  DeleteObjects: 0.090800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.337964 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Chest1C.prefab
+  artifactKey: Guid(c1024aea603ad35499808417642431d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Chest1C.prefab using Guid(c1024aea603ad35499808417642431d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0776bc93439775e318750e70e6c296') in 0.035973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.390 seconds
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.796 seconds
-Domain Reload Profiling: 1187ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (200ms)
-		LoadAssemblies (258ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (797ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (443ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (371ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3773.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 4.258600 ms (FindLiveObjects: 0.405200 ms CreateObjectMapping: 0.218000 ms MarkObjects: 3.538600 ms  DeleteObjects: 0.095300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 14.550003 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Chest2_LOD1.prefab
+  artifactKey: Guid(5633245ba7195b34eab63f8d2d38518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Chest2_LOD1.prefab using Guid(5633245ba7195b34eab63f8d2d38518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23bbd34f416bd7a0656d1aa19b95adf') in 0.025488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.363 seconds
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.793 seconds
-Domain Reload Profiling: 1156ms
-	BeginReloadAssembly (133ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (173ms)
-		LoadAssemblies (196ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (39ms)
-			TypeCache.Refresh (29ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (793ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (441ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (368ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3776.
-Memory consumption went from 218.1 MB to 218.1 MB.
-Total: 5.871500 ms (FindLiveObjects: 0.499600 ms CreateObjectMapping: 0.237600 ms MarkObjects: 5.032200 ms  DeleteObjects: 0.100500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Chest2B.prefab
+  artifactKey: Guid(2b9fca25b1b9cc04f9f51f4fcd48d88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Chest2B.prefab using Guid(2b9fca25b1b9cc04f9f51f4fcd48d88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1c9a1dc20ce589d8c661bd3c767d4d') in 0.032274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.100315 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Chest3_LOD1.prefab
+  artifactKey: Guid(47fdc710adfb0f245ba7f525b781a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Chest3_LOD1.prefab using Guid(47fdc710adfb0f245ba7f525b781a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9aa5a5b3f06385254b9f8fd0eba20e8') in 0.021165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.475244 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Chest4B.prefab
+  artifactKey: Guid(66d5f3862e6935043ba81a39102d69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Chest4B.prefab using Guid(66d5f3862e6935043ba81a39102d69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b46751f4d67ea50f76b673c56217e94') in 0.027455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.231253 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Chest5B.prefab
+  artifactKey: Guid(4d28b5b6c21345f46ae9f7f3fee865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Chest5B.prefab using Guid(4d28b5b6c21345f46ae9f7f3fee865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f313fb77ab95c330fb1799952d2ee54') in 0.019095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.090745 seconds.
+  path: Assets/Pirates Island/_origin/Models/Cliff1A.fbx
+  artifactKey: Guid(27ecd98511f85794e927c478a40bbbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Cliff1A.fbx using Guid(27ecd98511f85794e927c478a40bbbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b59f7b3e0f91aaa986d2a720afe8396') in 0.018180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Pirates Island/_origin/Models/Cliff1B.fbx
+  artifactKey: Guid(093719ec0b0e51c459de8386f05bd610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Cliff1B.fbx using Guid(093719ec0b0e51c459de8386f05bd610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ca1c5373228bbd13d5c7788a834823') in 0.021196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.105673 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Cliff1C.prefab
+  artifactKey: Guid(4cf95350fcf3d7b4babd3174c145455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Cliff1C.prefab using Guid(4cf95350fcf3d7b4babd3174c145455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6255f1eb840814f82e59652d055d9626') in 0.025271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.149472 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Cliff1E.prefab
+  artifactKey: Guid(b087ee1149708014aa6b430fc64f09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Cliff1E.prefab using Guid(b087ee1149708014aa6b430fc64f09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d70a863c3e30bc670aecc2531fe16b') in 0.027404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Models/Cliff1F.fbx
+  artifactKey: Guid(cab455288be457641a7df70976c63cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Cliff1F.fbx using Guid(cab455288be457641a7df70976c63cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821b28a0d4b6d789d4563b6bf046af69') in 0.029257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.090709 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Coconut.prefab
+  artifactKey: Guid(373754f6e5117904ea95a4ddbef87cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Coconut.prefab using Guid(373754f6e5117904ea95a4ddbef87cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ede15360262a62a73a0445f0864ff8e') in 0.017565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.307303 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Fence1B.prefab
+  artifactKey: Guid(37d090befb464864fa82534d8725b90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Fence1B.prefab using Guid(37d090befb464864fa82534d8725b90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464f2a8aae92e2487f4903a865d927fd') in 0.020836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.096985 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fence1C.fbx
+  artifactKey: Guid(7c8e89e0ac5c2654eac83d165d99d802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fence1C.fbx using Guid(7c8e89e0ac5c2654eac83d165d99d802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4723c6790ad37f8612dfb75697a71891') in 0.015401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fence1C.prefab
+  artifactKey: Guid(c5ef7f2cce864a74bbafd4013e12f613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fence1C.prefab using Guid(c5ef7f2cce864a74bbafd4013e12f613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a682ce27b7ebb5e7cfe3f16baec9096f') in 0.023646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.037312 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fence2A_LOD1.prefab
+  artifactKey: Guid(a62619d68146a354695a28c4e750f2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fence2A_LOD1.prefab using Guid(a62619d68146a354695a28c4e750f2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2399410dbb370abe71c2028a119a7f') in 0.017833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Fence2B.prefab
+  artifactKey: Guid(1bcd63edbf4d1ad40a9406f19b9416f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Fence2B.prefab using Guid(1bcd63edbf4d1ad40a9406f19b9416f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe155bb0ff5c9a4ea56181102e157af5') in 0.016631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.023216 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fence2B_LOD1.fbx
+  artifactKey: Guid(5c64c2049dca0174dae862eef5f74a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fence2B_LOD1.fbx using Guid(5c64c2049dca0174dae862eef5f74a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2842bc0814057659626563dc428d3dc') in 0.021831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.104757 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fence3_LOD2.fbx
+  artifactKey: Guid(d1e037a1640d16a4d80814338dd89329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fence3_LOD2.fbx using Guid(d1e037a1640d16a4d80814338dd89329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9a7ef9e4d1cdee990e7b38d48d7a47') in 0.018007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.072325 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Fishnet1.prefab
+  artifactKey: Guid(486b36655fbfbf7458dabeb04501cd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Fishnet1.prefab using Guid(486b36655fbfbf7458dabeb04501cd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c219e2f39b41c3956b1f17d1a28502c7') in 0.024677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fishnet1.fbx
+  artifactKey: Guid(c4dff1a672d78b84ab19e4b1c8fe4d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fishnet1.fbx using Guid(c4dff1a672d78b84ab19e4b1c8fe4d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963b0132ae47a498a4376f946086fa09') in 0.032881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.307007 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fishnet1_LOD2.prefab
+  artifactKey: Guid(89b59ae4c4e68ba4aa167906f0cc7b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fishnet1_LOD2.prefab using Guid(89b59ae4c4e68ba4aa167906f0cc7b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5b7e83e1a2378b6b8834c44b06ff95') in 0.022370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.094874 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fishnet2_LOD1.fbx
+  artifactKey: Guid(4e26ddfd3c4c0bd42bb61e0a66ea3e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fishnet2_LOD1.fbx using Guid(4e26ddfd3c4c0bd42bb61e0a66ea3e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d1612eab6cc422977cad455b4d0485') in 0.019232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Fishnet2_LOD2.prefab
+  artifactKey: Guid(09aa48746cd63b544a25f0da1a7494f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Fishnet2_LOD2.prefab using Guid(09aa48746cd63b544a25f0da1a7494f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150b52ecaae4b4be4eaa7b601e29442f') in 0.028302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.300276 seconds.
+  path: Assets/Pirates Island/_origin/Models/Fishnet3_LOD1.fbx
+  artifactKey: Guid(14761cb70e1400d4a92bc7cc752728c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Fishnet3_LOD1.fbx using Guid(14761cb70e1400d4a92bc7cc752728c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823f2c039112aebcea9db665fbef48e2') in 0.020146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pirates Island/_origin/Models/Flag.fbx
+  artifactKey: Guid(34b687b343ec09048a34241b32845f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Flag.fbx using Guid(34b687b343ec09048a34241b32845f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d874039ed426c1ca6ae8fd12a7ee99c') in 0.038654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.091646 seconds.
+  path: Assets/Pirates Island/Ship/Galleon_LOD1.fbx
+  artifactKey: Guid(18665c9637f39434f904f1e71a5eceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Ship/Galleon_LOD1.fbx using Guid(18665c9637f39434f904f1e71a5eceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30fb2fa41fd7268148bc5261bd2f444') in 0.340476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Garbage2_LOd1.prefab
+  artifactKey: Guid(f312387b09c99c34fac252486319d14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Garbage2_LOd1.prefab using Guid(f312387b09c99c34fac252486319d14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d68c50edf9eb850c4cf4d8269fe4f7') in 0.034055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Garbage2.prefab
+  artifactKey: Guid(87d1e3fa2892a014eb92fa96f25b8074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Garbage2.prefab using Guid(87d1e3fa2892a014eb92fa96f25b8074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f37f9247228e35e240cf77cb2d4f217') in 0.020295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/_origin/Models/Garbage1.fbx
+  artifactKey: Guid(78f7377d1160b3648abcff2132bc2536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Garbage1.fbx using Guid(78f7377d1160b3648abcff2132bc2536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0cc5e2ddd30b899f19120deb4666ff') in 0.019394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.047144 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Garbage3.prefab
+  artifactKey: Guid(2de39c1a5a3e950439f4d3913bf8495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Garbage3.prefab using Guid(2de39c1a5a3e950439f4d3913bf8495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063522a5b08825cb956083057cfc9cb0') in 0.019934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Garbage4.prefab
+  artifactKey: Guid(fc7027d82779eec4c83d6a31c08e387d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Garbage4.prefab using Guid(fc7027d82779eec4c83d6a31c08e387d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d42278f58d254a89323cfd2a809aff8') in 0.019063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.132049 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Garbage4_LOD1.prefab
+  artifactKey: Guid(36048e3534a1b874299704664e4ffef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Garbage4_LOD1.prefab using Guid(36048e3534a1b874299704664e4ffef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f031cf654a470a134d674701923e44') in 0.018465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.269445 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House1_LOD1.prefab
+  artifactKey: Guid(2e1b525d4ab110a4e93fd040edac6dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House1_LOD1.prefab using Guid(2e1b525d4ab110a4e93fd040edac6dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039c7d2e7fb3d11fdd7426516fc5189c') in 0.033642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/_origin/Models/House1_LOD2.fbx
+  artifactKey: Guid(7297d114f7c5dc84ea7f22d409a00b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House1_LOD2.fbx using Guid(7297d114f7c5dc84ea7f22d409a00b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d0bda44630fe2350b744c9404fa0cd') in 0.050683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.085959 seconds.
+  path: Assets/Pirates Island/_origin/Models/House2_LOD1.fbx
+  artifactKey: Guid(50ff0bbb9e2773445ba691b8884e9213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House2_LOD1.fbx using Guid(50ff0bbb9e2773445ba691b8884e9213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ef22cd8c68aa513493a916792f02a5') in 0.039385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House2_LOD2.prefab
+  artifactKey: Guid(9661e6728591b62458eac8c265c6b08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House2_LOD2.prefab using Guid(9661e6728591b62458eac8c265c6b08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fb788dcf9120bd39cde94a17ad44f8') in 0.042793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.062170 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House3_LOD1.prefab
+  artifactKey: Guid(05cb9957676665d4997db08bcd1f7dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House3_LOD1.prefab using Guid(05cb9957676665d4997db08bcd1f7dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e2274162ed12640c59a4176219842b') in 0.033350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House4_LOD1.prefab
+  artifactKey: Guid(69570fe653609a84ba240b5fca3cb5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House4_LOD1.prefab using Guid(69570fe653609a84ba240b5fca3cb5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192c15797288257c3a546d26fc40ea85') in 0.036176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/_origin/Models/House3_LOD1.fbx
+  artifactKey: Guid(95627a8920166764796bc0bc603ed512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House3_LOD1.fbx using Guid(95627a8920166764796bc0bc603ed512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b10c2588eee880096c40bc660c0cc01') in 0.048683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Pirates Island/_origin/Models/House4_LOD2.fbx
+  artifactKey: Guid(27c86377e037633489dc053206553c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House4_LOD2.fbx using Guid(27c86377e037633489dc053206553c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825278dfb8533cfa0fde3b08b9387736') in 0.051302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pirates Island/_origin/Models/House4.fbx
+  artifactKey: Guid(44d68b1eed35bc149af69d74c2338ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House4.fbx using Guid(44d68b1eed35bc149af69d74c2338ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5d9ef9e0e6bce6b9591474d38b4a24') in 0.053059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.712997 seconds.
+  path: Assets/Pirates Island/_origin/Models/House5_LOD2.fbx
+  artifactKey: Guid(64e973d9333d85b4b92611f3dbf41060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House5_LOD2.fbx using Guid(64e973d9333d85b4b92611f3dbf41060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2e3e651a305226e6ea1acc055fad6f') in 0.045206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House6_LOD1.prefab
+  artifactKey: Guid(121560a52ff46b3478dcf2fc75cde455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House6_LOD1.prefab using Guid(121560a52ff46b3478dcf2fc75cde455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a623f323ad38090b3640b90654582d1') in 0.033503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.050940 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House7.prefab
+  artifactKey: Guid(9f0454c0dba16f549a4889592c81c6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House7.prefab using Guid(9f0454c0dba16f549a4889592c81c6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25e93040e391830d454559824215b77') in 0.038388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House7_LOD2.prefab
+  artifactKey: Guid(e957ab2d638ffe74b84882b6a6122c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House7_LOD2.prefab using Guid(e957ab2d638ffe74b84882b6a6122c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd45ebbfd08c8bf1b741f57d8c02cdd2') in 0.040214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pirates Island/_origin/Models/House7_LOD2.fbx
+  artifactKey: Guid(a98c04c6193eb1244a37e34556e43ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House7_LOD2.fbx using Guid(a98c04c6193eb1244a37e34556e43ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbafd0e1581f896d3424a5acbb148e51') in 0.074489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House8_LOD1.prefab
+  artifactKey: Guid(da3c7efc62a11284585a3c0ce435db29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House8_LOD1.prefab using Guid(da3c7efc62a11284585a3c0ce435db29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfbcd861752bc54cfe7ebd3f8fb1509') in 0.037841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Pirates Island/_origin/Models/House9_LOD1.fbx
+  artifactKey: Guid(64086802c6e6ef547af50cf3d782d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House9_LOD1.fbx using Guid(64086802c6e6ef547af50cf3d782d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4579946467d761a885c4f426a22ae8') in 0.053394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/House10.prefab
+  artifactKey: Guid(8bfad338cd5c0cc45b938e1990fae457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/House10.prefab using Guid(8bfad338cd5c0cc45b938e1990fae457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc1d591f5ca2d6c75ed5fea8e891ec9') in 0.037419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/_origin/Models/House9_LOD2.fbx
+  artifactKey: Guid(04de8e4bd6f287740ab590f76238236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/House9_LOD2.fbx using Guid(04de8e4bd6f287740ab590f76238236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6492dcad031ef7b074ab5b612137e2dc') in 0.056053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.318331 seconds.
+  path: Assets/Pirates Island/_origin/Models/Human_scale.fbx
+  artifactKey: Guid(d97f3636e9f7f144993a3393e6f1fb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Human_scale.fbx using Guid(d97f3636e9f7f144993a3393e6f1fb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ca02c390405e6515747cc91145d5e0') in 0.019927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Ladder.prefab
+  artifactKey: Guid(ccc18e0912d85c9439e5769daf95bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Ladder.prefab using Guid(ccc18e0912d85c9439e5769daf95bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236787bacc10e06d5167bbdcd7047a37') in 0.019065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.051898 seconds.
+  path: Assets/Pirates Island/_origin/Models/Ladder_LOD1.fbx
+  artifactKey: Guid(16ed83f4d66d84842a9467d7536ced43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Ladder_LOD1.fbx using Guid(16ed83f4d66d84842a9467d7536ced43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed84fd9a772a557e9e36e3e6ba8011da') in 0.016872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.144619 seconds.
+  path: Assets/Pirates Island/_origin/Models/Lamp1A_LOD1.fbx
+  artifactKey: Guid(bb2bf7e61bcf8a343bac6007bfaf4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Lamp1A_LOD1.fbx using Guid(bb2bf7e61bcf8a343bac6007bfaf4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc4423481c3491cf8b555986bb5104a') in 0.017864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.118338 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Lamp1B.prefab
+  artifactKey: Guid(a91c6ca841ec96f4091317b00b8fb54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Lamp1B.prefab using Guid(a91c6ca841ec96f4091317b00b8fb54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b42e28b2932a617659802cfd47f776') in 0.017855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.036689 seconds.
+  path: Assets/Pirates Island/_origin/Models/Lamp1B_LOD2.fbx
+  artifactKey: Guid(684e53c9373e0cd40ac5a424d4f5c4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Lamp1B_LOD2.fbx using Guid(684e53c9373e0cd40ac5a424d4f5c4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769b48fa528e99ea2f79427820897ca6') in 0.019258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pirates Island/_origin/Models/Mast.fbx
+  artifactKey: Guid(50e140bb205616e41a0346266862b7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Mast.fbx using Guid(50e140bb205616e41a0346266862b7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45db55df31fb899d4fb4b132a3900a3') in 0.022409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.031383 seconds.
+  path: Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/ocean_plane.FBX
+  artifactKey: Guid(681e41ee1260343b395ca58745c94870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/ocean_plane.FBX using Guid(681e41ee1260343b395ca58745c94870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371e8010509e029b43d663ed91c63950') in 0.020575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Palisade1.prefab
+  artifactKey: Guid(c779ad083f73bb343be4db1592c3a5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Palisade1.prefab using Guid(c779ad083f73bb343be4db1592c3a5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c30601891b13f230b65fd99f955bc04') in 0.026962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.046194 seconds.
+  path: Assets/Pirates Island/_origin/Models/Palisade1_LOD2.fbx
+  artifactKey: Guid(862f8bf36c40c9a49ae3383c3107ee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Palisade1_LOD2.fbx using Guid(862f8bf36c40c9a49ae3383c3107ee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfe6e497c1ea6f1e386b15f9f4a0495') in 0.018804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.071032 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Palisade2.prefab
+  artifactKey: Guid(e8c66aef7311f3642962e0422dc0f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Palisade2.prefab using Guid(e8c66aef7311f3642962e0422dc0f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc58e9ae037e44a8e24da21ac2fa5ad') in 0.021817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Palisade3.prefab
+  artifactKey: Guid(685bb00ec22edd34cab9e369d9b1810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Palisade3.prefab using Guid(685bb00ec22edd34cab9e369d9b1810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad8b56b33f18b96ce4757a41f04feb9') in 0.023689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.027397 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Palisade3_LOD1.prefab
+  artifactKey: Guid(6a933705037a76f4e9fcd93d37086d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Palisade3_LOD1.prefab using Guid(6a933705037a76f4e9fcd93d37086d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ac4ec5989ff66b8120dd6bb4b0dced') in 0.022526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.034016 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pier1.prefab
+  artifactKey: Guid(d2b8c15b21184484bad47a91ebb9cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pier1.prefab using Guid(d2b8c15b21184484bad47a91ebb9cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921254b64db8a6593f938fe7ff80ab89') in 0.021131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pier1_LOD2.prefab
+  artifactKey: Guid(bc6db793019106746b825e084d7b024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pier1_LOD2.prefab using Guid(bc6db793019106746b825e084d7b024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4e1d8f1e31311a8079a9332f39676e') in 0.022138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.034260 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pier3.fbx
+  artifactKey: Guid(a50fa6e5bcde04041b96ac9e638bbcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pier3.fbx using Guid(a50fa6e5bcde04041b96ac9e638bbcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340ffbec098c5ff8386821e6fc34bdea') in 0.019583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pier3_LOD1.fbx
+  artifactKey: Guid(c463c6428c2523244bc3c518ed99d943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pier3_LOD1.fbx using Guid(c463c6428c2523244bc3c518ed99d943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf5bfcb3f292a71e8ccff3c0970e791') in 0.022050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pier3_LOD2.prefab
+  artifactKey: Guid(34a88f2e580932f45a3fce6a7a2af9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pier3_LOD2.prefab using Guid(34a88f2e580932f45a3fce6a7a2af9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e42cd2914daaeab50dec7f89b67db8') in 0.020325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.010209 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pier_Stairs1_LOD2.fbx
+  artifactKey: Guid(a1b39ea8d901aaa4dbf65bc591a27f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pier_Stairs1_LOD2.fbx using Guid(a1b39ea8d901aaa4dbf65bc591a27f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e496b4639a92fb24ca724a8c1341db7') in 0.015739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pier_Stairs2_LOD1.fbx
+  artifactKey: Guid(1b3b68d645f44434aa6557bb27492610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pier_Stairs2_LOD1.fbx using Guid(1b3b68d645f44434aa6557bb27492610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2c2cbcbc175f57c1b711b0df36b946') in 0.020743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pier_Stairs2_LOD1.prefab
+  artifactKey: Guid(21923fef7bcd560489113d67074a4960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pier_Stairs2_LOD1.prefab using Guid(21923fef7bcd560489113d67074a4960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d72de6b83cb0b2c4fafed28ced9cc6') in 0.019107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.061861 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pier_Stairs3_LOD1.fbx
+  artifactKey: Guid(947ef1f341651a3439980d5e5115345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pier_Stairs3_LOD1.fbx using Guid(947ef1f341651a3439980d5e5115345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f8140efc2df1cb912be58830639062') in 0.019126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.035446 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Platform2.prefab
+  artifactKey: Guid(62cded306358bd24f8c1f387df17f7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Platform2.prefab using Guid(62cded306358bd24f8c1f387df17f7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35571b111e326bd798972bc8c7f9254') in 0.019778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Platform2_LOD2.prefab
+  artifactKey: Guid(8ae0bc80fc43c244d94b86ce1686ad3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Platform2_LOD2.prefab using Guid(8ae0bc80fc43c244d94b86ce1686ad3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda7ff77e29de12993f4cd683ab70b88') in 0.020713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Platform3.prefab
+  artifactKey: Guid(8fa208bf527374945bc21eb641228e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Platform3.prefab using Guid(8fa208bf527374945bc21eb641228e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b03522cd59a7eb11a5bb234d3c9d162') in 0.029561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.012498 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Platform3_LOD1.prefab
+  artifactKey: Guid(2bd78b0696068904caad67dadf7657b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Platform3_LOD1.prefab using Guid(2bd78b0696068904caad67dadf7657b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c15a39fcc21610b23c9c2e2a9e38b4') in 0.022582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pole1.prefab
+  artifactKey: Guid(c082758ad9738fe46966023388979f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pole1.prefab using Guid(c082758ad9738fe46966023388979f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e290211bea83aaefc87dde0b59fc9f') in 0.022802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.026714 seconds.
+  path: Assets/Pirates Island/_origin/Models/Pole2_LOD1.fbx
+  artifactKey: Guid(a40443d12916f9e45ac522f8aa5d49d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Pole2_LOD1.fbx using Guid(a40443d12916f9e45ac522f8aa5d49d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf887019cc1201cd926dc6fd972c150') in 0.016915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Pole2_LOD1.prefab
+  artifactKey: Guid(dd18f98fc24f7ac49b753e05ccbf0b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Pole2_LOD1.prefab using Guid(dd18f98fc24f7ac49b753e05ccbf0b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01998355b9d95cff62ac520d612008ba') in 0.022358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Rock1.prefab
+  artifactKey: Guid(ae5eabc6a9ce8ae41be1301c99feda1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Rock1.prefab using Guid(ae5eabc6a9ce8ae41be1301c99feda1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0b79da2ca5aa5d5815050408f76235') in 0.025392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.010347 seconds.
+  path: Assets/Pirates Island/_origin/Models/Rock3C_LOD1.fbx
+  artifactKey: Guid(2feb144bdb57cf94381dbfbe2077464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Rock3C_LOD1.fbx using Guid(2feb144bdb57cf94381dbfbe2077464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f9af94f7e8f9237aeb1cd4dcf2c034') in 0.021176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Rock4.prefab
+  artifactKey: Guid(e08bf50010513cc499fb0b7dcb28308b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Rock4.prefab using Guid(e08bf50010513cc499fb0b7dcb28308b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef46153e707e106407f71229f2006508') in 0.021061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Rock3C_LOD1.prefab
+  artifactKey: Guid(7d495874e7fb8874b8ee67bf23a2a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Rock3C_LOD1.prefab using Guid(7d495874e7fb8874b8ee67bf23a2a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50eb1e262f594836bb65ca2c23142570') in 0.020018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.013084 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Scaff1.prefab
+  artifactKey: Guid(96ecaefd2b1527b4bb7e91d2c602d734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Scaff1.prefab using Guid(96ecaefd2b1527b4bb7e91d2c602d734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efac062ca4868422a402d654d9f2fe50') in 0.022673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Scaff2.prefab
+  artifactKey: Guid(63ad66322dfaeeb4690073a88a5862e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Scaff2.prefab using Guid(63ad66322dfaeeb4690073a88a5862e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fb7c171f1c9677cecd30a009588984') in 0.027136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pirates Island/_origin/Models/Scaff1.fbx
+  artifactKey: Guid(c57854b62d7acd442bdd9ba96027f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Scaff1.fbx using Guid(c57854b62d7acd442bdd9ba96027f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe7c9464e35b2d35f3f066abf3ff050') in 0.020817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.016096 seconds.
+  path: Assets/Pirates Island/_origin/Models/Shed1_LOD1.fbx
+  artifactKey: Guid(eb1e232cd50e0ba418490cda7844ced3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Shed1_LOD1.fbx using Guid(eb1e232cd50e0ba418490cda7844ced3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5beee0cdc1075f44d322374e3445bf6') in 0.024267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Shed2.prefab
+  artifactKey: Guid(12ec42fef990ad545b8c3098b1a1478a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Shed2.prefab using Guid(12ec42fef990ad545b8c3098b1a1478a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773f1a20eb5452c55c4537b9be6b4999') in 0.033350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pirates Island/_origin/Models/Shed2_LOD1.fbx
+  artifactKey: Guid(ae96c824f4d77c144b0714c6b443dcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Shed2_LOD1.fbx using Guid(ae96c824f4d77c144b0714c6b443dcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa97fa07a6a2aba2184a268677ff0a8b') in 0.018768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.017750 seconds.
+  path: Assets/Pirates Island/_origin/Models/Shed4.fbx
+  artifactKey: Guid(a849943dab560a742ba89615a07abf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Shed4.fbx using Guid(a849943dab560a742ba89615a07abf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e899378d8f1018d2fc03012822451a') in 0.019016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pirates Island/_origin/Models/Shed4_LOD1.fbx
+  artifactKey: Guid(890caeff186890944af6d1ac6cb3bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Shed4_LOD1.fbx using Guid(890caeff186890944af6d1ac6cb3bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8566017d01d0cf3cebcef421c1f552') in 0.020823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pirates Island/_origin/Models/Shed5.fbx
+  artifactKey: Guid(eaaa6a0845a761a4d826eb0dd6de04cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Shed5.fbx using Guid(eaaa6a0845a761a4d826eb0dd6de04cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fed592424b2bc4a195907d4569f69f5') in 0.019231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.019594 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Stall1.prefab
+  artifactKey: Guid(18633aca3fbb574448d841c96c6a1113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Stall1.prefab using Guid(18633aca3fbb574448d841c96c6a1113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f323fa300861d50eaa40704c2f3574d0') in 0.021372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Models/Stall1_LOD1.fbx
+  artifactKey: Guid(56fd114eaff07154189dd91f2f700c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/Stall1_LOD1.fbx using Guid(56fd114eaff07154189dd91f2f700c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9202f77beccaf9f1e80831667d7e2ce4') in 0.022249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.030776 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Tower1_LOD1.prefab
+  artifactKey: Guid(12ab31e8cdd13d94f97128c456a2edb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Tower1_LOD1.prefab using Guid(12ab31e8cdd13d94f97128c456a2edb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b12d94b4d24e28fb65d919a4181359b') in 0.026641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Tower2.prefab
+  artifactKey: Guid(a7879df0053762246948211feaf618e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Tower2.prefab using Guid(a7879df0053762246948211feaf618e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ca5b5a4222bc594c2f72ed098dee54') in 0.038003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 167
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Tower2.prefab
+  artifactKey: Guid(e2b07a837eac96e4a8ed72d045e8e1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Tower2.prefab using Guid(e2b07a837eac96e4a8ed72d045e8e1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d1c0361e1f8aa64d7dbe3ebed0d2c5') in 0.029029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/Tower2_LOD1.prefab
+  artifactKey: Guid(b81c499eaf7907645b7d8031b6056511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/Tower2_LOD1.prefab using Guid(b81c499eaf7907645b7d8031b6056511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bff73086de86510c8c2d9841777d00b') in 0.037419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.088327 seconds.
+  path: Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Water4Example (Simple).prefab
+  artifactKey: Guid(843740dbe549a4a6ba9556d1b80001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Water4Example (Simple).prefab using Guid(843740dbe549a4a6ba9556d1b80001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8a74d8dbb5e66dd2739d2ab10b6f2b') in 0.018445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.030554 seconds.
+  path: Assets/Pirates Island/Prefabs_LOD/Wood_Stairs1.prefab
+  artifactKey: Guid(74a592189017a3b47bed9e2fd2a795bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Prefabs_LOD/Wood_Stairs1.prefab using Guid(74a592189017a3b47bed9e2fd2a795bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778664cb980ede88bf3986c89a6b0f35') in 0.027865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pirates Island/_origin/Models/WoodStairs1_LOD1.fbx
+  artifactKey: Guid(0114a6330f2d76f4c85cf8e6e6b262a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/WoodStairs1_LOD1.fbx using Guid(0114a6330f2d76f4c85cf8e6e6b262a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2868cc86c89cd33d59e399e7c6cddf44') in 0.031067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.014154 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/WoodStairs1_LOD2.prefab
+  artifactKey: Guid(916b7558d5bea5146b4b72f33829440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/WoodStairs1_LOD2.prefab using Guid(916b7558d5bea5146b4b72f33829440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22470f0de61dae782d39314b06bf615') in 0.020148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/WoodStairs2_LOD1.prefab
+  artifactKey: Guid(577ad01295e461344b127a4bbba21b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/WoodStairs2_LOD1.prefab using Guid(577ad01295e461344b127a4bbba21b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9b949bc6325e4504cd64d26435be5e') in 0.024342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.086686 seconds.
+  path: Assets/Pirates Island/_origin/Models/WoodStairs3_LOD1.fbx
+  artifactKey: Guid(6a7e0eae9765f6144ae3ac4d3b347309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/WoodStairs3_LOD1.fbx using Guid(6a7e0eae9765f6144ae3ac4d3b347309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ca204904c276e083775ccb7381363a') in 0.018784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002532 seconds.
+  path: Assets/Pirates Island/_origin/Prefabs/WoodStairs4.prefab
+  artifactKey: Guid(55d548622a0d99b44a786500d65c8598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Prefabs/WoodStairs4.prefab using Guid(55d548622a0d99b44a786500d65c8598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f0fde409757c0d48ac5704819248b0') in 0.021747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.030835 seconds.
+  path: Assets/Pirates Island/_origin/Models/WoodStairs4_LOD1.fbx
+  artifactKey: Guid(bd0edaf008856d84e8d26b8468dac91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Models/WoodStairs4_LOD1.fbx using Guid(bd0edaf008856d84e8d26b8468dac91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9cbeb85daa4d24e1cdecbdca3c34b4') in 0.020962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 105.904655 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.mat
+  artifactKey: Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.mat using Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291705b85b7563d8230b8cf688c2415a') in 0.042491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.055347 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03.mat
+  artifactKey: Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03.mat using Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d605ba5e5bb353b9bb5a09fe4dd28f') in 0.029278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.215107 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.mat
+  artifactKey: Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.mat using Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c868c845ec05f9e698efbef7226e9f84') in 0.028327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.309112 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.mat
+  artifactKey: Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.mat using Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed195cd6b07c882a4d9962af3415f22') in 0.031165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat
+  artifactKey: Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat using Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ac744b4ea6b31da60079d7ea8da161') in 0.026073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.055691 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat
+  artifactKey: Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat using Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0b0c7a3367449681f7867bb60444e6') in 0.024704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.mat
+  artifactKey: Guid(1065b432639a84123a07ea43fe5ba4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.mat using Guid(1065b432639a84123a07ea43fe5ba4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e17e7436327ab96110404c48f5b54a') in 0.027948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.003348 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat
+  artifactKey: Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat using Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d6200f5bdd2f7b3f7d20da134b310e') in 0.027728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.198374 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.mat
+  artifactKey: Guid(9ca22510633fbfd4399f1704cd9d5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.mat using Guid(9ca22510633fbfd4399f1704cd9d5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8152c49352476cbb328c8c0ff6c485d1') in 0.032407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Cubemap.mat
+  artifactKey: Guid(94d852a7748a347489661febea5eafc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Cubemap.mat using Guid(94d852a7748a347489661febea5eafc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91090cfd5b7551eab3f2df00a4e0c29b') in 0.065180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.059101 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night.mat
+  artifactKey: Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night.mat using Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf92c5898ac5c763d5bf04d0a4d328c1') in 0.024387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.045092 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Cubemap.mat
+  artifactKey: Guid(3f1e52dec055a3a4f850420ef19cb2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Cubemap.mat using Guid(3f1e52dec055a3a4f850420ef19cb2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70824ad81dffb87ef63b89b809b43641') in 0.061757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.mat
+  artifactKey: Guid(b5a27fa4b11bfb24cbc6daff3802c229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.mat using Guid(b5a27fa4b11bfb24cbc6daff3802c229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62df2c0269c05ec506d06780dd1d8d2d') in 0.029391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Rainy_Cubemap.mat
+  artifactKey: Guid(d4e34faecb9b9564e941b0a4236003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Rainy_Cubemap.mat using Guid(d4e34faecb9b9564e941b0a4236003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64728cd57f0ac5779415d0e1e5766b79') in 0.066098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.mat
+  artifactKey: Guid(7c86d4abbd33b564b9e773aceadb8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.mat using Guid(7c86d4abbd33b564b9e773aceadb8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9511d8d7ec2e16240260d2c42b6db18d') in 0.024123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.099196 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.mat
+  artifactKey: Guid(44d0573bf6d91e447b62f3aff840f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.mat using Guid(44d0573bf6d91e447b62f3aff840f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb43db0731b3bd30adc95d4ebb27a91a') in 0.024527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.045377 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunset_Cubemap.mat
+  artifactKey: Guid(a59fe87939f259d40a7ee37624c9568b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunset_Cubemap.mat using Guid(a59fe87939f259d40a7ee37624c9568b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9527be6b6f7fdde1c21279bc28454955') in 0.060585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.051142 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.mat
+  artifactKey: Guid(0f1401d983cde1c49a7f687a57e62c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.mat using Guid(0f1401d983cde1c49a7f687a57e62c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f78c0455e37105e0865c8579e9d345d') in 0.026924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.079373 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.mat
+  artifactKey: Guid(80fa4f34db87aad4d93c45188b19bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.mat using Guid(80fa4f34db87aad4d93c45188b19bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d1b36c5f0808c3f12bd73702017e89') in 0.023971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.mat
+  artifactKey: Guid(20cbde986f628bb41bbc92dfd61311cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.mat using Guid(20cbde986f628bb41bbc92dfd61311cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b00746c25acaf9ae33271cd17d5cd65') in 0.028089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Cubemap.mat
+  artifactKey: Guid(c81599feeec05d14fbf3dd64b71864c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Cubemap.mat using Guid(c81599feeec05d14fbf3dd64b71864c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a521b8afe8cbe6b699c3a9d6cd4437') in 0.062379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.mat
+  artifactKey: Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.mat using Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc76ac0eae64a979706e802469e68510') in 0.032525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041829 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.mat
+  artifactKey: Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.mat using Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e4ec4cfcced96b1bed993cd8999c2d') in 0.025751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018209 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Snowy_Cubemap.mat
+  artifactKey: Guid(4f0579e073abe59409641925c6e53e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Snowy_Cubemap.mat using Guid(4f0579e073abe59409641925c6e53e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153bffe267b58d9a03272d6524d17fad') in 0.065544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.053776 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1923c6c7a725b77e52662c2210925107') in 0.027328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014875 seconds.
+  path: Assets/Pirates Island/_origin/Ground/ground_test.mat
+  artifactKey: Guid(bd373320df46dcf4d83d179b5c1dc072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Ground/ground_test.mat using Guid(bd373320df46dcf4d83d179b5c1dc072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a744152f64386df82aae60d1be3f0a3c') in 0.041262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903d8abbcfc6a02666d69bb8f3bccbe2') in 0.036818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/lambert1.mat
+  artifactKey: Guid(defeaf18a10886a43a7815b1f3f44ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/lambert1.mat using Guid(defeaf18a10886a43a7815b1f3f44ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3bec9471fb02fc8a5d2b0a571af99e') in 0.015289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.400440 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262e978c7c8cc5d788f5b9cae71750d8') in 0.024081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17820582794546a6165af49ec706a084') in 0.031955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92513d1f4e7c8fde22afd24e373a677') in 0.025421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.038356 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c57fd990f40acaca41d2c4f15025bf') in 0.049481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.013441 seconds.
+  path: Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/Materials/ocean_plane-No Name.mat
+  artifactKey: Guid(eae94293b93a5474d8b82710736a6022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/Materials/ocean_plane-No Name.mat using Guid(eae94293b93a5474d8b82710736a6022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96a1af800705e3198754a3c631267a3') in 0.016925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/ocean_plane.mat
+  artifactKey: Guid(80dc0f296ac9946ca8fe9c4259b1b229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/ocean_plane.mat using Guid(80dc0f296ac9946ca8fe9c4259b1b229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659439ac6e69e70de01f69b2cec66cf6') in 0.016305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.954176 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/wall2.mat
+  artifactKey: Guid(72c050ff0c9b26d4898cddf33f976cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/wall2.mat using Guid(72c050ff0c9b26d4898cddf33f976cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57faf6f2f07a5367170ac31ff609cdbf') in 0.015062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
