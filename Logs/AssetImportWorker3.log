@@ -1,0 +1,520 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32637 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/Projects/timeEscape
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+63048
+Successfully changed project path to: E:/Projects/timeEscape
+E:/Projects/timeEscape
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10572] Host "[IP] 192.168.100.56 [Port] 0 [Flags] 2 [Guid] 270794592 [EditorId] 270794592 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10572] Host "[IP] 192.168.100.56 [Port] 0 [Flags] 2 [Guid] 270794592 [EditorId] 270794592 [Version] 1048832 [Id] WindowsEditor(7,Fahim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path E:/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Projects/timeEscape/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   NVIDIA
+    VRAM:     8073 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002802 seconds.
+- Loaded All Assemblies, in  0.255 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.200 seconds
+Domain Reload Profiling: 455ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (200ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (154ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 1021ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (387ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (57.7 KB). Loaded Objects now: 3743.
+Memory consumption went from 240.7 MB to 240.6 MB.
+Total: 2.927100 ms (FindLiveObjects: 0.220700 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.509300 ms  DeleteObjects: 0.111500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42515.200515 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Atlas1_nmp.tif
+  artifactKey: Guid(201e4597ee3851244b61451da4378b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Atlas1_nmp.tif using Guid(201e4597ee3851244b61451da4378b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e767030adc44531f83dd84abf5a4ea2d') in 0.086663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009317 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Bark1.tif
+  artifactKey: Guid(ea0ecb493b9104b44b6a5aff9f3f9503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Bark1.tif using Guid(ea0ecb493b9104b44b6a5aff9f3f9503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd323b1173f81d22c89b1ffb3a66520') in 0.021860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Atlas2.tif
+  artifactKey: Guid(2c2020d33d6f5f94cbe98873130a28be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Atlas2.tif using Guid(2c2020d33d6f5f94cbe98873130a28be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab89a8a9bc0bc79846f9a09b70f5418') in 0.018964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.032256 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Bark2.tif
+  artifactKey: Guid(222fe9cd2f662434b8e1d9250b77d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Bark2.tif using Guid(222fe9cd2f662434b8e1d9250b77d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d13be479d2510c6ed323f1c04a66b1d') in 0.019223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Bark3.tif
+  artifactKey: Guid(f8b218a965639054791a1f89222dfba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Bark3.tif using Guid(f8b218a965639054791a1f89222dfba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345cbc614b1e42b9355dd8f41e25e7da') in 0.018068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.027962 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Boat_nmp.tif
+  artifactKey: Guid(bf2ec564a262ce643b9a7c5e7514c5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Boat_nmp.tif using Guid(bf2ec564a262ce643b9a7c5e7514c5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7a5a74e25d7c5126ff4c5dcbcf141d') in 0.018984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch1.tif
+  artifactKey: Guid(105e9d2c3eda9694cb12b04b6bd6ea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch1.tif using Guid(105e9d2c3eda9694cb12b04b6bd6ea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8531639fdda71e3c4063df8ca7285a4c') in 0.016507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch2_nmp.tif
+  artifactKey: Guid(e5ebf6468563f1049b2a69179a904e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch2_nmp.tif using Guid(e5ebf6468563f1049b2a69179a904e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952c4e8ade728233c9eefdfe65f38b6d') in 0.016117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch1_nmp.tif
+  artifactKey: Guid(e16775e5d919c0244acf17a7f99b0106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch1_nmp.tif using Guid(e16775e5d919c0244acf17a7f99b0106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9af0b0003a5dc287eddacfc40e914c') in 0.016213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002423 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch5_spec.tif
+  artifactKey: Guid(e40f81ddb14b4ce4bbf5d69229649c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch5_spec.tif using Guid(e40f81ddb14b4ce4bbf5d69229649c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9caa884f03ffe5a4c21456b712ef334') in 0.012216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch6A.tif
+  artifactKey: Guid(5f04db862002ec6418d853e3be97a648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch6A.tif using Guid(5f04db862002ec6418d853e3be97a648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa6eaa2638845e90259648f12eb5191') in 0.014579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch6A_spec.tif
+  artifactKey: Guid(c1cb919af9ebcc14983ace6d9869a802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch6A_spec.tif using Guid(c1cb919af9ebcc14983ace6d9869a802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82a1a30f756e278582d607f06d3f7fe') in 0.011527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch6B.tif
+  artifactKey: Guid(19458fb1472f7ce49973ef90bd101a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch6B.tif using Guid(19458fb1472f7ce49973ef90bd101a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ea6d75ad33b2b019c979c5193a9da6') in 0.016328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch6B_nmp.tif
+  artifactKey: Guid(43baacd5571a02e40b653978cb1d0c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch6B_nmp.tif using Guid(43baacd5571a02e40b653978cb1d0c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82eaae9736467e2840fa8463a9af2924') in 0.015722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008931 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch8_trans.tif
+  artifactKey: Guid(f30b63fd28ea72f4b94c5d20e6f52c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch8_trans.tif using Guid(f30b63fd28ea72f4b94c5d20e6f52c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90be0f4f2fec4da07a696087b94e7e7d') in 0.011366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009382 seconds.
+  path: Assets/Pirates Island/_origin/Particles/Materials_Textures/Butterfly2.tif
+  artifactKey: Guid(4cd3e7b295c24bd42a6337116933e9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Particles/Materials_Textures/Butterfly2.tif using Guid(4cd3e7b295c24bd42a6337116933e9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862491f00f545cb217a29a97ee422293') in 0.020033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010963 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Cliffs1_Atlas.tif
+  artifactKey: Guid(7cf3b7d35a6e195458ac9e1a1fabd920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Cliffs1_Atlas.tif using Guid(7cf3b7d35a6e195458ac9e1a1fabd920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd418edd47fcd7445522ed042de3ae4a7') in 0.021612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Cliffs2.tif
+  artifactKey: Guid(5f9af18537d2d6047a1eb89c1d3e5585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Cliffs2.tif using Guid(5f9af18537d2d6047a1eb89c1d3e5585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9262edc0705108e101cff806b9a004') in 0.020181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Cliffs1_Atlas_nmp.tif
+  artifactKey: Guid(cf657d00ce42d0047ac3518bcea25aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Cliffs1_Atlas_nmp.tif using Guid(cf657d00ce42d0047ac3518bcea25aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b592dc8cee7280b7f77d37121fca1f') in 0.029376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.174502 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch8_nmp.tif
+  artifactKey: Guid(33cfb4918b075f44babfa784424f8edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch8_nmp.tif using Guid(33cfb4918b075f44babfa784424f8edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d3d57e5ee1c47a60c0b3ccc70c33fd') in 0.015617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.916100 seconds.
+  path: Assets/Pirates Island/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/color correction ramp.png
+  artifactKey: Guid(d440902fad11e807d00044888d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Image Effects (Pro Only)/_Sources/Textures/color correction ramp.png using Guid(d440902fad11e807d00044888d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932cb9b456f67f61161ad3125362495b') in 0.013228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.027672 seconds.
+  path: Assets/Pirates Island/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_normals.png
+  artifactKey: Guid(531c14f8d5cdc4e5baa83ee6e16f783a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_normals.png using Guid(531c14f8d5cdc4e5baa83ee6e16f783a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e63a769523f545c0c65a2ea93cb5613') in 0.012129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Waterfall/Textures/darkGrid.png
+  artifactKey: Guid(9c1039ed7055db549887e19e29c64f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waterfall/Textures/darkGrid.png using Guid(9c1039ed7055db549887e19e29c64f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c3072e8ccf8dd1519b0134dddafe8f') in 0.011479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Detail1.tif
+  artifactKey: Guid(5c4cce14465998444a0878f501cbaf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Detail1.tif using Guid(5c4cce14465998444a0878f501cbaf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23f6cbdc8791d130b60259b01c634cb') in 0.018271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022359 seconds.
+  path: Assets/Pirates Island/Nature/Tree2_Textures/diffuse.png
+  artifactKey: Guid(1c1ba717a8e648c4fa415f41693ac2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/Tree2_Textures/diffuse.png using Guid(1c1ba717a8e648c4fa415f41693ac2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55284e173dfd8b78197d25c853b2eb43') in 0.018382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pirates Island/Nature/Tree4A_Textures/diffuse.png
+  artifactKey: Guid(e4c356507389cfe47844cdb2e30b6ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/Tree4A_Textures/diffuse.png using Guid(e4c356507389cfe47844cdb2e30b6ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221af85a8df03520f00783a2e9960a2c') in 0.017999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pirates Island/Nature/Palm_Tree1_Textures/diffuse.png
+  artifactKey: Guid(cb378ec15ea9e3b48afb9276b1edd8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/Palm_Tree1_Textures/diffuse.png using Guid(cb378ec15ea9e3b48afb9276b1edd8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5ef8a6327cce5a36ce50e6f3b24519') in 0.013865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pirates Island/Nature/PalmTree1_Textures/diffuse.png
+  artifactKey: Guid(f3adbd2f86deeeb42b8d576b2578a07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/PalmTree1_Textures/diffuse.png using Guid(f3adbd2f86deeeb42b8d576b2578a07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738c2d9c20ba42319e6fd075b79c67f3') in 0.019252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pirates Island/Nature/PalmTree4_Textures/diffuse.png
+  artifactKey: Guid(9d31e0af02500a84f807cececb56565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/PalmTree4_Textures/diffuse.png using Guid(9d31e0af02500a84f807cececb56565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9879564d91f3fa0671a9cb63fdc77e38') in 0.018534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Pirates Island/Nature/Tree1_Textures/diffuse.png
+  artifactKey: Guid(b71c3b8cc78c8e4449d5cfddcdc40a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/Tree1_Textures/diffuse.png using Guid(b71c3b8cc78c8e4449d5cfddcdc40a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8705ad16483e01c3f3a182e3d86d31a2') in 0.014421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029060 seconds.
+  path: Assets/Pirates Island/Nature/Tree7_Textures/diffuse.png
+  artifactKey: Guid(bf30edce3b3c24746bdc4c8c5145917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/Tree7_Textures/diffuse.png using Guid(bf30edce3b3c24746bdc4c8c5145917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaa3e75aeef93b0394acd0e9f612c0b') in 0.019031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.618716 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Fabric1_nmp.tif
+  artifactKey: Guid(cc39e41fd2f55aa49a9e389c2cf9f1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Fabric1_nmp.tif using Guid(cc39e41fd2f55aa49a9e389c2cf9f1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7adcd1c29e8ec4e5f106b4b5300a44') in 0.018288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Fence1.tif
+  artifactKey: Guid(b759227be0202494aaed9c615f3431a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Fence1.tif using Guid(b759227be0202494aaed9c615f3431a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adc2cf5e37ff530cc6f88d7c6f302bd') in 0.013486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019640 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Fence2_nmp.tif
+  artifactKey: Guid(a889ea816996d3b4f9fe9338c361b2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Fence2_nmp.tif using Guid(a889ea816996d3b4f9fe9338c361b2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea09f0968aae8813f9091df5937f2d2e') in 0.021014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pirates Island/_origin/Materials Textures/Flag.tif
+  artifactKey: Guid(36dc167ca60bb934b83b0226026ae804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/_origin/Materials Textures/Flag.tif using Guid(36dc167ca60bb934b83b0226026ae804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fccd75018f81c19c52c15ea8588bbe9') in 0.017178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.594384 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch7_trans.tif
+  artifactKey: Guid(819a602769a7be640b6213aea09894d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch7_trans.tif using Guid(819a602769a7be640b6213aea09894d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55feb2ba1b73c69e48227209f2315cb0') in 0.013698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010490 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch7_nmp.tif
+  artifactKey: Guid(07c5b273095f4ea46b2711bfc0b03917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch7_nmp.tif using Guid(07c5b273095f4ea46b2711bfc0b03917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a70942c6085a1e6f6103588a3f8978') in 0.016182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.114270 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch4_trans.tif
+  artifactKey: Guid(c2a389a7fbfe1154d81ad0ec4097f3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch4_trans.tif using Guid(c2a389a7fbfe1154d81ad0ec4097f3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f823dc3ade04a7d23bc94c6185bc93a7') in 0.013675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch5_nmp.tif
+  artifactKey: Guid(7c4d875fcd0c29a4cb7ea1aa622d1187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch5_nmp.tif using Guid(7c4d875fcd0c29a4cb7ea1aa622d1187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c731b49a6f769bf5e578843409b41b3e') in 0.019211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.264686 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch3_trans.tif
+  artifactKey: Guid(be55be2d06ddffe478cd6d59a48a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch3_trans.tif using Guid(be55be2d06ddffe478cd6d59a48a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb80bc2481af6867702d33b73c9af201') in 0.010841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch4_nmp.tif
+  artifactKey: Guid(bdaec353dcd200847902227bea693f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch4_nmp.tif using Guid(bdaec353dcd200847902227bea693f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4f26f714d39bbc78647b1230c1c3c4') in 0.014596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039670 seconds.
+  path: Assets/Pirates Island/Nature/_Material Textures/Branch3.tif
+  artifactKey: Guid(b62ee08edd685af47a96e1f3d0ed6a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirates Island/Nature/_Material Textures/Branch3.tif using Guid(b62ee08edd685af47a96e1f3d0ed6a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1356997168cb4dc5c47c6c9e0c0e9d1') in 0.016682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
